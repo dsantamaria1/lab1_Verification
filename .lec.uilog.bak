@@ -1,0 +1,1692 @@
+ guiWinConfig . 740 690 256 86 
+ guiWinConfig .message 84 103 598 275 
+         if { [ .icon.refresh cget -state ] == "normal" } {
+            .icon.refresh configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.refresh
+ .icon.refresh configure -relief flat 
+     tk::ButtonLeave .icon.refresh
+         if { [ .v_menu.logo cget -state ] == "normal" } {
+            .v_menu.logo configure -relief groove
+        }
+    
+     tk::ButtonEnter .v_menu.logo
+ .v_menu.logo configure -relief flat 
+     tk::ButtonLeave .v_menu.logo
+     tk::ButtonEnter .icon.setup
+     tk::ButtonLeave .icon.setup
+         if { [ .icon.find cget -state ] == "normal" } {
+            .icon.find configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.find
+ .icon.find configure -relief flat 
+     tk::ButtonLeave .icon.find
+     tk::MbEnter .v_menu.ltx
+     tk::MbMotion .v_menu.ltx up 539 116
+     tk::MbLeave .v_menu.ltx
+     tk::MbEnter .v_menu.tool
+     tk::MbMotion .v_menu.tool up 503 116
+     tk::MbLeave .v_menu.tool
+         if { [ .icon.srccode cget -state ] == "normal" } {
+            .icon.srccode configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.srccode
+ .icon.srccode configure -relief flat 
+     tk::ButtonLeave .icon.srccode
+         if { [ .icon.srccode cget -state ] == "normal" } {
+            .icon.srccode configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.srccode
+ .icon.srccode configure -relief flat 
+     tk::ButtonLeave .icon.srccode
+     tk::MbEnter .v_menu.ltx
+     tk::MbMotion .v_menu.ltx up 532 112
+     tk::MbLeave .v_menu.ltx
+     tk::MbEnter .v_menu.opt
+     tk::MbMotion .v_menu.opt up 641 100
+     tk::MbLeave .v_menu.opt
+     tk::MbEnter .v_menu.win
+     tk::MbMotion .v_menu.win up 708 91
+     tk::MbLeave .v_menu.win
+     tk::MbEnter .v_menu.opt
+     tk::MbMotion .v_menu.opt up 646 110
+     tk::MbLeave .v_menu.opt
+         if { [ .icon.diag cget -state ] == "normal" } {
+            .icon.diag configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.diag
+ .icon.diag configure -relief flat 
+     tk::ButtonLeave .icon.diag
+         if { [ .icon.rrcmgr cget -state ] == "normal" } {
+            .icon.rrcmgr configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.rrcmgr
+ .icon.rrcmgr configure -relief flat 
+     tk::ButtonLeave .icon.rrcmgr
+         if { [ .icon.comp cget -state ] == "normal" } {
+            .icon.comp configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.comp
+ .icon.comp configure -relief flat 
+     tk::ButtonLeave .icon.comp
+         if { [ .icon.gate cget -state ] == "normal" } {
+            .icon.gate configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.gate
+ .icon.gate configure -relief flat 
+     tk::ButtonLeave .icon.gate
+         if { [ .icon.modelmgr cget -state ] == "normal" } {
+            .icon.modelmgr configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.modelmgr
+ .icon.modelmgr configure -relief flat 
+     tk::ButtonLeave .icon.modelmgr
+         if { [ .icon.rulechk cget -state ] == "normal" } {
+            .icon.rulechk configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.rulechk
+ .icon.rulechk configure -relief flat 
+     tk::ButtonLeave .icon.rulechk
+         if { [ .icon.srccode cget -state ] == "normal" } {
+            .icon.srccode configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.srccode
+ .icon.srccode configure -relief flat 
+     tk::ButtonLeave .icon.srccode
+         if { [ .icon.hierCmp cget -state ] == "normal" } {
+            .icon.hierCmp configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.hierCmp
+ .icon.hierCmp configure -relief flat 
+     tk::ButtonLeave .icon.hierCmp
+     tk::MbEnter .v_menu.set
+     tk::MbMotion .v_menu.set up 315 113
+     tk::MbMotion .v_menu.set up 303 107
+     tk::MbMotion .v_menu.set up 297 103
+     tk::MbLeave .v_menu.set
+     tk::MbEnter .v_menu.read
+     tk::MbMotion .v_menu.read up 293 101
+     tk::MbMotion .v_menu.read up 289 99
+     tk::MbMotion .v_menu.read up 287 98
+     tk::MbMotion .v_menu.read up 285 96
+     tk::MbMotion .v_menu.read up 283 95
+     tk::MbMotion .v_menu.read up 282 94
+     tk::MbMotion .v_menu.read up 281 93
+     tk::MbMotion .v_menu.read up 281 93
+     tk::MbMotion .v_menu.read up 280 92
+     tk::MbMotion .v_menu.read up 280 91
+     tk::MbMotion .v_menu.read up 279 90
+     tk::MbMotion .v_menu.read up 279 89
+     tk::MbLeave .v_menu.read
+     tk::MbEnter .v_menu.read
+     tk::MbMotion .v_menu.read up 276 89
+     tk::MbMotion .v_menu.read up 276 92
+     tk::MbMotion .v_menu.read up 276 95
+     tk::MbMotion .v_menu.read up 276 98
+     tk::MbMotion .v_menu.read up 276 99
+     tk::MbMotion .v_menu.read up 276 100
+     tk::MbMotion .v_menu.read up 276 101
+     tk::MbMotion .v_menu.read up 277 102
+     tk::MbMotion .v_menu.read up 278 103
+     tk::MbMotion .v_menu.read up 278 103
+     tk::MbMotion .v_menu.read up 279 104
+     tk::MbMotion .v_menu.read up 279 105
+     tk::MbMotion .v_menu.read up 279 106
+     tk::MbMotion .v_menu.read up 279 108
+     tk::MbMotion .v_menu.read up 279 111
+     tk::MbMotion .v_menu.read up 279 113
+     tk::MbLeave .v_menu.read
+         if { [ .icon.rlib cget -state ] == "normal" } {
+            .icon.rlib configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.rlib
+ .icon.rlib configure -relief flat 
+     tk::ButtonLeave .icon.rlib
+         if { [ .icon.rlib cget -state ] == "normal" } {
+            .icon.rlib configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.rlib
+     tk::ButtonDown .icon.rlib
+#--GUI(0)===>(Button).icon.rlib <Button-1> {}
+callback  Gui_lic_recheck
+     tk::ButtonUp .icon.rlib
+#--GUI(1)===>(Button).icon.rlib <ButtonRelease-1> {}
+tixBalloon_XXButtonUp 277 137 1
+ guiWinConfig .rlibrary 671 740 305 36 
+ .icon.rlib configure -relief flat 
+     tk::ButtonLeave .icon.rlib
+         if { [ .icon.rdsn cget -state ] == "normal" } {
+            .icon.rdsn configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.rdsn
+ .icon.rdsn configure -relief flat 
+     tk::ButtonLeave .icon.rdsn
+     tk::ButtonEnter .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.arrow
+     tk::ButtonLeave .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.arrow
+     tk::ButtonEnter .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.arrow
+_tixRecordFlags <1> % 9231 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884738915 ?? 15 6 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.arrow 808 502; 
+	tixComboBox:ArrowDown [tixGetMegaWidget .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.arrow TixComboBox]
+    ; _tixDeleteFlags;
+#--GUI(2)===>(Button).rlibrary.bkd0.border.frame.fsbox.lf.types.frame.arrow <Button-1> {}
+_tixRecordFlags <FocusIn> % 9262 ?? ?? ?? NotifyVirtual ?? ?? ?? NotifyNormal ?? ?? ?? ?? ?? ?? ?? ?? ?? 0 ?? ?? ?? ?? 9 .rlibrary.bkd0.border.frame.fsbox.lf.types ?? ??; 
+	if {"NotifyVirtual" eq "NotifyNonlinear" || "NotifyVirtual" eq "NotifyNonlinearVirtual"} {
+	    focus [.rlibrary.bkd0.border.frame.fsbox.lf.types subwidget entry]
+ 	    # CYGNUS: Setting the selection if there is no data
+	    # causes backspace to misbehave.
+	    if {[[set .rlibrary.bkd0.border.frame.fsbox.lf.types(w:entry)] get] ne ""} {
+  		[set .rlibrary.bkd0.border.frame.fsbox.lf.types(w:entry)] selection from 0
+  		[set .rlibrary.bkd0.border.frame.fsbox.lf.types(w:entry)] selection to end
+  	    }
+ 	}
+    ; _tixDeleteFlags;
+#--GUI(3)===>(TixComboBox).rlibrary.bkd0.border.frame.fsbox.lf.types <FocusIn> {}
+_tixRecordFlags <ButtonRelease-1> % 9234 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884738909 ?? 15 6 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.arrow 808 502; 
+	tixComboBox:ArrowUp   [tixGetMegaWidget .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.arrow TixComboBox]
+    ; _tixDeleteFlags;
+#--GUI(4)===>(Button).rlibrary.bkd0.border.frame.fsbox.lf.types.frame.arrow <ButtonRelease-1> {}
+     tk::ButtonUp .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.arrow
+#--GUI(5)===>(Button).rlibrary.bkd0.border.frame.fsbox.lf.types.frame.arrow <ButtonRelease-1> {}
+tixBalloon_XXButtonUp 808 502 1
+tixScrolledWidget:MasterGeomProc .rlibrary.bkd0.border.frame.fsbox.lf.types.shell.slistbox
+tixScrolledListBox:Configure .rlibrary.bkd0.border.frame.fsbox.lf.types.shell.slistbox
+tixScrolledWidget:ClientGeomProc .rlibrary.bkd0.border.frame.fsbox.lf.types.shell.slistbox {} .rlibrary.bkd0.border.frame.fsbox.lf.types.shell.slistbox.listbox
+tixScrolledWidget:ClientGeomProc .rlibrary.bkd0.border.frame.fsbox.lf.types.shell.slistbox {} .rlibrary.bkd0.border.frame.fsbox.lf.types.shell.slistbox.listbox
+tixScrolledWidget:ClientGeomProc .rlibrary.bkd0.border.frame.fsbox.lf.types.shell.slistbox {} .rlibrary.bkd0.border.frame.fsbox.lf.types.shell.slistbox.vsb
+     tk::ButtonDown .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.arrow
+#--GUI(6)===>(Button).rlibrary.bkd0.border.frame.fsbox.lf.types.frame.arrow <Button-1> {}
+callback  Gui_lic_recheck
+     tk::EntrySetCursor .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry [expr {[.rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry index insert] + 1}]
+#--GUI(7)===>(Entry).rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry <Key-Right> {}
+_tixRecordFlags <KeyPress> % 9450 ?? ?? ?? ?? ?? ?? 132 ?? ?? ?? 0 -884738397 ?? 489 7 {} ?? 0 Right 65363 0x000111 0x60038b 2 .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry 808 502; 
+	tixComboBox:EntKeyPress [tixGetMegaWidget .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry TixComboBox]
+    ; _tixDeleteFlags;
+#--GUI(8)===>(Entry).rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry <Key> {"{}"}
+     tk::EntrySetCursor .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry [expr {[.rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry index insert] + 1}]
+#--GUI(9)===>(Entry).rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry <Key-Right> {}
+_tixRecordFlags <KeyPress> % 9468 ?? ?? ?? ?? ?? ?? 132 ?? ?? ?? 0 -884738177 ?? 489 7 {} ?? 0 Right 65363 0x000111 0x60038b 2 .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry 808 502; 
+	tixComboBox:EntKeyPress [tixGetMegaWidget .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry TixComboBox]
+    ; _tixDeleteFlags;
+#--GUI(10)===>(Entry).rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry <Key> {"{}"}
+     tk::CancelRepeat
+    tk::EntryInsert .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry {}
+#--GUI(11)===>(Entry).rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry <Key> {"{}"}
+_tixRecordFlags <Down> % 9482 ?? ?? ?? ?? ?? ?? 133 ?? ?? ?? 0 -884737961 ?? 489 7 {} ?? 0 Down 65364 0x000111 0x60038b 2 .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry 808 502; 
+	tixComboBox:EntDirKey [tixGetMegaWidget .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry TixComboBox] down
+    ; _tixDeleteFlags;
+#--GUI(12)===>(Entry).rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry <Key-Down> {}
+     tk::CancelRepeat
+    tk::EntryInsert .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry {}
+#--GUI(13)===>(Entry).rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry <Key> {"{}"}
+_tixRecordFlags <Down> % 9523 ?? ?? ?? ?? ?? ?? 133 ?? ?? ?? 0 -884737769 ?? 489 7 {} ?? 0 Down 65364 0x000111 0x60038b 2 .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry 808 502; 
+	tixComboBox:EntDirKey [tixGetMegaWidget .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry TixComboBox] down
+    ; _tixDeleteFlags;
+#--GUI(14)===>(Entry).rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry <Key-Down> {}
+     tk::CancelRepeat
+    tk::EntryInsert .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry {}
+#--GUI(15)===>(Entry).rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry <Key> {"{}"}
+_tixRecordFlags <Down> % 9564 ?? ?? ?? ?? ?? ?? 133 ?? ?? ?? 0 -884737617 ?? 489 7 {} ?? 0 Down 65364 0x000111 0x60038b 2 .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry 808 502; 
+	tixComboBox:EntDirKey [tixGetMegaWidget .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry TixComboBox] down
+    ; _tixDeleteFlags;
+#--GUI(16)===>(Entry).rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry <Key-Down> {}
+     tk::CancelRepeat
+    tk::EntryInsert .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry {}
+#--GUI(17)===>(Entry).rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry <Key> {"{}"}
+_tixRecordFlags <Down> % 9626 ?? ?? ?? ?? ?? ?? 133 ?? ?? ?? 0 -884737225 ?? 489 7 {} ?? 0 Down 65364 0x000111 0x60038b 2 .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry 808 502; 
+	tixComboBox:EntDirKey [tixGetMegaWidget .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry TixComboBox] down
+    ; _tixDeleteFlags;
+#--GUI(18)===>(Entry).rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry <Key-Down> {}
+     tk::CancelRepeat
+    tk::EntryInsert .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry {}
+#--GUI(19)===>(Entry).rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry <Key> {"{}"}
+_tixRecordFlags <Down> % 9689 ?? ?? ?? ?? ?? ?? 133 ?? ?? ?? 0 -884736729 ?? 489 7 {} ?? 0 Down 65364 0x000111 0x60038b 2 .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry 808 502; 
+	tixComboBox:EntDirKey [tixGetMegaWidget .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry TixComboBox] down
+    ; _tixDeleteFlags;
+#--GUI(20)===>(Entry).rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry <Key-Down> {}
+# nothing
+#--GUI(21)===>(Entry).rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry <Key-Return> {}
+_tixRecordFlags <Return> % 9752 ?? ?? ?? ?? ?? ?? 44 ?? ?? ?? 0 -884735865 ?? 489 7 \r ?? 0 Return 65293 0x000111 0x60038b 2 .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry 808 502; 
+	tixComboBox:EntReturnKey [tixGetMegaWidget .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry TixComboBox]
+    ; _tixDeleteFlags;
+#--GUI(22)===>(Entry).rlibrary.bkd0.border.frame.fsbox.lf.types.frame.entry <Key-Return> {}
+     tk::ButtonLeave .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.arrow
+     tk::ButtonEnter .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.arrow
+     tk::ButtonLeave .rlibrary.bkd0.border.frame.fsbox.lf.types.frame.arrow
+     if {$tk_strictMotif} {
+	set tk::Priv(activeBg) [.rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb cget -activebackground]
+	.rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb configure -activebackground [.rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb cget -background]
+    }
+    .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb activate [.rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb identify 12 66]
+     # Prevents <Leave> binding from being invoked.
+#--GUI(23)===>(Scrollbar).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb <B1-Leave> {}
+     # Prevents <Enter> binding from being invoked.
+#--GUI(24)===>(Scrollbar).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb <B1-Enter> {}
+     tk::ScrollButtonDown .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 3 62
+#--GUI(25)===>(Scrollbar).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb <Button-1> {}
+callback  Gui_lic_recheck
+     tk::ScrollDrag .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 3 63
+     tk::ScrollDrag .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 3 66
+     tk::ScrollDrag .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 3 72
+     tk::ScrollDrag .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 3 80
+     tk::ScrollDrag .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 3 90
+     tk::ScrollDrag .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 5 109
+     tk::ScrollDrag .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 6 131
+     tk::ScrollDrag .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 6 136
+     # Prevents <Leave> binding from being invoked.
+#--GUI(26)===>(Scrollbar).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb <B1-Leave> {}
+     tk::ScrollDrag .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 6 141
+     tk::ScrollDrag .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 6 142
+     tk::ScrollDrag .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 6 142
+     tk::ScrollButtonUp .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 6 142
+#--GUI(27)===>(Scrollbar).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb <ButtonRelease-1> {}
+tixBalloon_XXButtonUp 497 456 1
+     if {$tk_strictMotif && [info exists tk::Priv(activeBg)]} {
+	.rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb configure -activebackground $tk::Priv(activeBg)
+    }
+    .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb activate {}
+_tixRecordFlags <B1-Leave> % 11376 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyGrab ?? ?? 256 -884732335 ?? 85 70 ?? ?? 0 ?? ?? 0x000111 00000000 8 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 411 387; 
+	set tkPriv(x) 85
+	set tkPriv(y) 70
+	set tkPriv(X) 411
+	set tkPriv(Y) 387
+ 	tixHList:B1-Leave .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist
+    ; _tixDeleteFlags;
+#--GUI(28)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Leave> {}
+_tixRecordFlags <B1-Enter> % 11376 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyUngrab ?? ?? 256 -884732303 ?? 85 70 ?? ?? 0 ?? ?? 0x000111 00000000 7 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 411 387; 
+	tixHList:B1-Enter .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 85 70
+    ; _tixDeleteFlags;
+#--GUI(29)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Enter> {}
+_tixRecordFlags <ButtonPress-1> % 11376 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884732304 ?? 85 70 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 411 387; 
+	tixHList:Button-1 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 85 70 ""
+    ; _tixDeleteFlags;
+#--GUI(30)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Button-1> {}
+callback  Gui_lic_recheck
+_tixRecordFlags <FocusOut> % 11390 ?? ?? ?? NotifyNonlinearVirtual ?? ?? ?? NotifyNormal ?? ?? ?? ?? ?? ?? ?? ?? ?? 0 ?? ?? ?? ?? 10 .rlibrary.bkd0.border.frame.fsbox.lf.types ?? ??; 
+	if {[string equal NotifyNonlinearVirtual NotifyNonlinear] ||
+	    [string equal NotifyNonlinearVirtual NotifyNonlinearVirtual]} {
+ 	    if {[info exists .rlibrary.bkd0.border.frame.fsbox.lf.types(cancelTab)]} {
+		unset .rlibrary.bkd0.border.frame.fsbox.lf.types(cancelTab)
+	    } else {
+		if {[set .rlibrary.bkd0.border.frame.fsbox.lf.types(-state)] ne "disabled"} {
+		    if {[set .rlibrary.bkd0.border.frame.fsbox.lf.types(-selection)] ne [set .rlibrary.bkd0.border.frame.fsbox.lf.types(-value)]} {
+			tixComboBox:Invoke .rlibrary.bkd0.border.frame.fsbox.lf.types
+		    }
+		}
+	    }
+	}
+    ; _tixDeleteFlags;
+#--GUI(31)===>(TixComboBox).rlibrary.bkd0.border.frame.fsbox.lf.types <FocusOut> {}
+_tixRecordFlags <ButtonRelease-1> % 11464 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884732256 ?? 85 70 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 411 387; 
+	tixHList:ButtonRelease-1 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 85 70
+    ; _tixDeleteFlags;
+#--GUI(32)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <ButtonRelease-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+tixBalloon_XXButtonUp 411 387 1
+_tixRecordFlags <B1-Leave> % 11782 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyGrab ?? ?? 256 -884732232 ?? 85 70 ?? ?? 0 ?? ?? 0x000111 00000000 8 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 411 387; 
+	set tkPriv(x) 85
+	set tkPriv(y) 70
+	set tkPriv(X) 411
+	set tkPriv(Y) 387
+ 	tixHList:B1-Leave .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist
+    ; _tixDeleteFlags;
+#--GUI(33)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Leave> {}
+_tixRecordFlags <B1-Enter> % 11782 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyUngrab ?? ?? 256 -884732167 ?? 85 70 ?? ?? 0 ?? ?? 0x000111 00000000 7 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 411 387; 
+	tixHList:B1-Enter .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 85 70
+    ; _tixDeleteFlags;
+#--GUI(34)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Enter> {}
+_tixRecordFlags <ButtonPress-1> % 11782 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884732168 ?? 85 70 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 411 387; 
+	tixHList:Button-1 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 85 70 ""
+    ; _tixDeleteFlags;
+#--GUI(35)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Button-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+callback  Gui_lic_recheck
+_tixRecordFlags <ButtonRelease-1> % 11795 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884732104 ?? 85 70 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 411 387; 
+	tixHList:ButtonRelease-1 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 85 70
+    ; _tixDeleteFlags;
+#--GUI(36)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <ButtonRelease-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+tixBalloon_XXButtonUp 411 387 1
+_tixRecordFlags <B1-Leave> % 11926 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyGrab ?? ?? 256 -884732090 ?? 85 70 ?? ?? 0 ?? ?? 0x000111 00000000 8 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 411 387; 
+	set tkPriv(x) 85
+	set tkPriv(y) 70
+	set tkPriv(X) 411
+	set tkPriv(Y) 387
+ 	tixHList:B1-Leave .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist
+    ; _tixDeleteFlags;
+#--GUI(37)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Leave> {}
+_tixRecordFlags <B1-Enter> % 11926 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyUngrab ?? ?? 256 -884731477 ?? 85 70 ?? ?? 0 ?? ?? 0x000111 00000000 7 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 411 387; 
+	tixHList:B1-Enter .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 85 70
+    ; _tixDeleteFlags;
+#--GUI(38)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Enter> {}
+_tixRecordFlags <ButtonPress-1> % 11926 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884731478 ?? 85 70 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 411 387; 
+	tixHList:Button-1 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 85 70 ""
+    ; _tixDeleteFlags;
+#--GUI(39)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Button-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+callback  Gui_lic_recheck
+_tixRecordFlags <ButtonRelease-1> % 11939 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884731414 ?? 85 70 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 411 387; 
+	tixHList:ButtonRelease-1 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 85 70
+    ; _tixDeleteFlags;
+#--GUI(40)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <ButtonRelease-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+tixBalloon_XXButtonUp 411 387 1
+_tixRecordFlags <B1-Leave> % 12070 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyGrab ?? ?? 256 -884731400 ?? 85 70 ?? ?? 0 ?? ?? 0x000111 00000000 8 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 411 387; 
+	set tkPriv(x) 85
+	set tkPriv(y) 70
+	set tkPriv(X) 411
+	set tkPriv(Y) 387
+ 	tixHList:B1-Leave .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist
+    ; _tixDeleteFlags;
+#--GUI(41)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Leave> {}
+_tixRecordFlags <B1-Enter> % 12070 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyUngrab ?? ?? 256 -884731339 ?? 85 70 ?? ?? 0 ?? ?? 0x000111 00000000 7 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 411 387; 
+	tixHList:B1-Enter .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 85 70
+    ; _tixDeleteFlags;
+#--GUI(42)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Enter> {}
+_tixRecordFlags <Double-ButtonPress-1> % 12070 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884731340 ?? 85 70 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 411 387; 
+	tixHList:Double-1 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist  85 70
+    ; _tixDeleteFlags;
+#--GUI(43)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Double-Button-1> {}
+callback  Gui_lic_recheck
+_tixRecordFlags <ButtonRelease-1> % 12352 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884731244 ?? 85 70 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 411 387; 
+	tixHList:ButtonRelease-1 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 85 70
+    ; _tixDeleteFlags;
+#--GUI(44)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <ButtonRelease-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+tixBalloon_XXButtonUp 411 387 1
+_tixRecordFlags <B1-Leave> % 12388 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyGrab ?? ?? 256 -884730350 ?? 92 121 ?? ?? 0 ?? ?? 0x000111 00000000 8 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 418 438; 
+	set tkPriv(x) 92
+	set tkPriv(y) 121
+	set tkPriv(X) 418
+	set tkPriv(Y) 438
+ 	tixHList:B1-Leave .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist
+    ; _tixDeleteFlags;
+#--GUI(45)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Leave> {}
+_tixRecordFlags <B1-Enter> % 12388 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyUngrab ?? ?? 256 -884730336 ?? 92 121 ?? ?? 0 ?? ?? 0x000111 00000000 7 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 418 438; 
+	tixHList:B1-Enter .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 92 121
+    ; _tixDeleteFlags;
+#--GUI(46)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Enter> {}
+_tixRecordFlags <ButtonPress-1> % 12388 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884730337 ?? 92 121 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 418 438; 
+	tixHList:Button-1 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 92 121 ""
+    ; _tixDeleteFlags;
+#--GUI(47)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Button-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+callback  Gui_lic_recheck
+_tixRecordFlags <ButtonRelease-1> % 12459 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884730264 ?? 92 121 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 418 438; 
+	tixHList:ButtonRelease-1 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 92 121
+    ; _tixDeleteFlags;
+#--GUI(48)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <ButtonRelease-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V/lecTutorial lecTutorial}}
+tixBalloon_XXButtonUp 418 438 1
+_tixRecordFlags <B1-Leave> % 12766 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyGrab ?? ?? 256 -884730243 ?? 92 121 ?? ?? 0 ?? ?? 0x000111 00000000 8 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 418 438; 
+	set tkPriv(x) 92
+	set tkPriv(y) 121
+	set tkPriv(X) 418
+	set tkPriv(Y) 438
+ 	tixHList:B1-Leave .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist
+    ; _tixDeleteFlags;
+#--GUI(49)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Leave> {}
+_tixRecordFlags <B1-Enter> % 12766 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyUngrab ?? ?? 256 -884730175 ?? 92 121 ?? ?? 0 ?? ?? 0x000111 00000000 7 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 418 438; 
+	tixHList:B1-Enter .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 92 121
+    ; _tixDeleteFlags;
+#--GUI(50)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Enter> {}
+_tixRecordFlags <ButtonPress-1> % 12766 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884730176 ?? 92 121 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 418 438; 
+	tixHList:Button-1 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 92 121 ""
+    ; _tixDeleteFlags;
+#--GUI(51)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Button-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V/lecTutorial lecTutorial}}
+callback  Gui_lic_recheck
+_tixRecordFlags <ButtonRelease-1> % 12779 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884730104 ?? 92 121 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 418 438; 
+	tixHList:ButtonRelease-1 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 92 121
+    ; _tixDeleteFlags;
+#--GUI(52)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <ButtonRelease-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V/lecTutorial lecTutorial}}
+tixBalloon_XXButtonUp 418 438 1
+_tixRecordFlags <B1-Leave> % 12911 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyGrab ?? ?? 256 -884730089 ?? 92 121 ?? ?? 0 ?? ?? 0x000111 00000000 8 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 418 438; 
+	set tkPriv(x) 92
+	set tkPriv(y) 121
+	set tkPriv(X) 418
+	set tkPriv(Y) 438
+ 	tixHList:B1-Leave .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist
+    ; _tixDeleteFlags;
+#--GUI(53)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Leave> {}
+_tixRecordFlags <B1-Enter> % 12911 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyUngrab ?? ?? 256 -884729629 ?? 92 121 ?? ?? 0 ?? ?? 0x000111 00000000 7 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 418 438; 
+	tixHList:B1-Enter .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 92 121
+    ; _tixDeleteFlags;
+#--GUI(54)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Enter> {}
+_tixRecordFlags <ButtonPress-1> % 12911 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884729630 ?? 92 121 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 418 438; 
+	tixHList:Button-1 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 92 121 ""
+    ; _tixDeleteFlags;
+#--GUI(55)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Button-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V/lecTutorial lecTutorial}}
+callback  Gui_lic_recheck
+_tixRecordFlags <ButtonRelease-1> % 12924 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884729574 ?? 92 121 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 418 438; 
+	tixHList:ButtonRelease-1 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 92 121
+    ; _tixDeleteFlags;
+#--GUI(56)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <ButtonRelease-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V/lecTutorial lecTutorial}}
+tixBalloon_XXButtonUp 418 438 1
+_tixRecordFlags <B1-Leave> % 13055 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyGrab ?? ?? 256 -884729560 ?? 92 121 ?? ?? 0 ?? ?? 0x000111 00000000 8 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 418 438; 
+	set tkPriv(x) 92
+	set tkPriv(y) 121
+	set tkPriv(X) 418
+	set tkPriv(Y) 438
+ 	tixHList:B1-Leave .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist
+    ; _tixDeleteFlags;
+#--GUI(57)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Leave> {}
+_tixRecordFlags <B1-Enter> % 13055 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyUngrab ?? ?? 256 -884729493 ?? 92 121 ?? ?? 0 ?? ?? 0x000111 00000000 7 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 418 438; 
+	tixHList:B1-Enter .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 92 121
+    ; _tixDeleteFlags;
+#--GUI(58)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Enter> {}
+_tixRecordFlags <Double-ButtonPress-1> % 13055 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884729494 ?? 92 121 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 418 438; 
+	tixHList:Double-1 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist  92 121
+    ; _tixDeleteFlags;
+#--GUI(59)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Double-Button-1> {}
+callback  Gui_lic_recheck
+_tixRecordFlags <ButtonRelease-1> % 13337 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884729414 ?? 92 121 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 418 438; 
+	tixHList:ButtonRelease-1 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 92 121
+    ; _tixDeleteFlags;
+#--GUI(60)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <ButtonRelease-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V/lecTutorial lecTutorial}}
+tixBalloon_XXButtonUp 418 438 1
+callback  Gui_lic_recheck
+tixBalloon_XXButtonUp 463 401 5
+callback  Gui_lic_recheck
+tixBalloon_XXButtonUp 463 401 5
+callback  Gui_lic_recheck
+tixBalloon_XXButtonUp 463 401 5
+callback  Gui_lic_recheck
+tixBalloon_XXButtonUp 463 401 5
+callback  Gui_lic_recheck
+tixBalloon_XXButtonUp 463 401 5
+callback  Gui_lic_recheck
+tixBalloon_XXButtonUp 463 401 5
+callback  Gui_lic_recheck
+tixBalloon_XXButtonUp 463 401 5
+callback  Gui_lic_recheck
+tixBalloon_XXButtonUp 463 401 5
+callback  Gui_lic_recheck
+tixBalloon_XXButtonUp 463 401 5
+callback  Gui_lic_recheck
+tixBalloon_XXButtonUp 463 401 5
+callback  Gui_lic_recheck
+tixBalloon_XXButtonUp 463 401 5
+     if {$tk_strictMotif} {
+	set tk::Priv(activeBg) [.rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb cget -activebackground]
+	.rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb configure -activebackground [.rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb cget -background]
+    }
+    .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb activate [.rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb identify 7 73]
+     if {$tk_strictMotif && [info exists tk::Priv(activeBg)]} {
+	.rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb configure -activebackground $tk::Priv(activeBg)
+    }
+    .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb activate {}
+tixPanedWindow:HighlightBtn .rlibrary.bkd0.border.frame.fsbox.lf.pane 1
+tixPanedWindow:DeHighlightBtn .rlibrary.bkd0.border.frame.fsbox.lf.pane 1
+_tixRecordFlags <Down> % 13458 ?? ?? ?? ?? ?? ?? 133 ?? ?? ?? 0 -884727594 ?? 185 65 {} ?? 0 Down 65364 0x000111 00000000 2 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 511 382; 
+	tixHList:UpDown .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist next ""
+    ; _tixDeleteFlags;
+#--GUI(61)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Down> {}
+_tixRecordFlags <Down> % 13518 ?? ?? ?? ?? ?? ?? 133 ?? ?? ?? 0 -884727418 ?? 185 65 {} ?? 0 Down 65364 0x000111 00000000 2 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 511 382; 
+	tixHList:UpDown .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist next ""
+    ; _tixDeleteFlags;
+#--GUI(62)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Down> {}
+_tixRecordFlags <Down> % 13620 ?? ?? ?? ?? ?? ?? 133 ?? ?? ?? 0 -884727242 ?? 185 65 {} ?? 0 Down 65364 0x000111 00000000 2 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 511 382; 
+	tixHList:UpDown .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist next ""
+    ; _tixDeleteFlags;
+#--GUI(63)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Down> {}
+_tixRecordFlags <Down> % 13722 ?? ?? ?? ?? ?? ?? 133 ?? ?? ?? 0 -884727026 ?? 185 65 {} ?? 0 Down 65364 0x000111 00000000 2 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 511 382; 
+	tixHList:UpDown .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist next ""
+    ; _tixDeleteFlags;
+#--GUI(64)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Down> {}
+_tixRecordFlags <Up> % 13724 ?? ?? ?? ?? ?? ?? 134 ?? ?? ?? 0 -884726562 ?? 185 65 {} ?? 0 Up 65362 0x000111 00000000 2 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 511 382; 
+	tixHList:UpDown .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist prev ""
+    ; _tixDeleteFlags;
+#--GUI(65)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Up> {}
+_tixRecordFlags <Return> % 13784 ?? ?? ?? ?? ?? ?? 44 ?? ?? ?? 0 -884725866 ?? 185 65 \r ?? 0 Return 65293 0x000111 00000000 2 .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 511 382; 
+	tixHList:Keyboard-Activate .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 
+    ; _tixDeleteFlags;
+#--GUI(66)===>(TixHList).rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Return> {}
+     set tk::Priv(x) 35
+    set tk::Priv(y) 3
+    tk::ListboxAutoScan .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox
+#--GUI(67)===>(Listbox).rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox <B1-Leave> {}
+     tk::CancelRepeat
+#--GUI(68)===>(Listbox).rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox <B1-Enter> {}
+_tixRecordFlags <1> % 14217 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884724898 ?? 35 3 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox 549 317; 
+	if {[set [tixGetMegaWidget .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox](-state)] eq "disabled"} {
+	    break
+	}
+    ; _tixDeleteFlags;
+#--GUI(69)===>(Listbox).rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox <Button-1> {}
+     if {[winfo exists .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox]} {
+	tk::ListboxBeginSelect .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox [.rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox index @35,3] 1
+    }
+#--GUI(70)===>(Listbox).rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox <Button-1> {}
+_tixRecordFlags <1> % 14217 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884724898 ?? 35 3 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox 549 317; 
+	if {[string is true -strict [.rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox cget -takefocus]]} {
+	    focus .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox
+	}
+	tixScrolledListBox:Browse [tixGetMegaWidget .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox]
+    ; _tixDeleteFlags;
+#--GUI(71)===>(Listbox).rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox <Button-1> lsi_10k.lib
+callback  Gui_lic_recheck
+focus .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox
+#--GUI(72)===>(TixScrolledListBox).rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist <FocusIn> {}
+_tixRecordFlags <ButtonRelease-1> % 14327 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884724730 ?? 35 3 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox 549 317; 
+	if {[set [tixGetMegaWidget .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox](-state)] eq "disabled"} {
+	    break
+	}
+    ; _tixDeleteFlags;
+#--GUI(73)===>(Listbox).rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox <ButtonRelease-1> lsi_10k.lib
+     tk::CancelRepeat
+    .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox activate @35,3
+#--GUI(74)===>(Listbox).rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox <ButtonRelease-1> lsi_10k.lib
+_tixRecordFlags <ButtonRelease-1> % 14327 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884724730 ?? 35 3 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox 549 317; 
+	tixScrolledListBox:Browse [tixGetMegaWidget .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox]
+    ; _tixDeleteFlags;
+#--GUI(75)===>(Listbox).rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox <ButtonRelease-1> lsi_10k.lib
+tixBalloon_XXButtonUp 549 317 1
+     tk::ButtonEnter .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.file.frame.arrow
+     tk::ButtonLeave .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.file.frame.arrow
+     tk::ButtonEnter .rlibrary.bkd0.border.frame.fsbox.bf.ok
+     tk::ButtonLeave .rlibrary.bkd0.border.frame.fsbox.bf.ok
+     tk::ButtonEnter .rlibrary.bkd0.border.frame.fsbox.bf.ok
+     tk::ButtonDown .rlibrary.bkd0.border.frame.fsbox.bf.ok
+#--GUI(76)===>(Button).rlibrary.bkd0.border.frame.fsbox.bf.ok <Button-1> {}
+callback  Gui_lic_recheck
+     tk::ButtonUp .rlibrary.bkd0.border.frame.fsbox.bf.ok
+#--GUI(77)===>(Button).rlibrary.bkd0.border.frame.fsbox.bf.ok <ButtonRelease-1> {}
+tixBalloon_XXButtonUp 866 268 1
+tixScrolledWidget:ClientGeomProc .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox {} .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox.listbox
+tixScrolledWidget:ClientGeomProc .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox {} .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox.vsb
+tixScrolledWidget:ClientGeomProc .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox {} .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox.listbox
+tixScrolledWidget:ClientGeomProc .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox {} .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox.vsb
+tixScrolledWidget:ClientGeomProc .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox {} .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox.listbox
+tixScrolledWidget:ClientGeomProc .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox {} .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox.vsb
+tixScrolledWidget:ClientGeomProc .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox {} .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox.hsb
+tixScrolledWidget:ClientGeomProc .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox {} .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox.listbox
+tixScrolledWidget:ClientGeomProc .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox {} .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox.vsb
+tixScrolledWidget:ClientGeomProc .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox {} .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox.hsb
+     tk::ButtonLeave .rlibrary.bkd0.border.frame.fsbox.bf.ok
+     tk::ButtonEnter .rlibrary.bt.quit
+     tk::ButtonLeave .rlibrary.bt.quit
+     tk::ButtonEnter .rlibrary.bt.ok
+     tk::ButtonLeave .rlibrary.bt.ok
+     tk::ButtonEnter .rlibrary.bt.ok
+     tk::ButtonDown .rlibrary.bt.ok
+#--GUI(78)===>(Button).rlibrary.bt.ok <Button-1> {}
+callback  Gui_lic_recheck
+     tk::ButtonUp .rlibrary.bt.ok
+#--GUI(79)===>(Button).rlibrary.bt.ok <ButtonRelease-1> {}
+ guiWinConfig .a.pane.f3.command.text.text.promt1 67 22 1 -13 
+ guiWinConfig .b.frame.lab 192 22 1 1 
+ guiWinConfig .b.frame.lab 245 22 1 1 
+ guiWinConfig .a.pane.f3.command.text.text.promt1 67 22 1 -17 
+ guiWinConfig .a.pane.f3.command.text.text.promt2 67 22 1 5 
+tixPrimitive:Destructor .rlibrary.bkd.file.list
+tixPrimitive:Destructor .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox
+tixComboBox:Destructor .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dir
+tixPrimitive:Destructor .rlibrary.bkd0.border.frame.fsbox.lf.pane.1.dirlist
+tixPrimitive:Destructor .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox
+tixComboBox:Destructor .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.file
+tixPrimitive:Destructor .rlibrary.bkd0.border.frame.fsbox.lf.pane.2.filelist
+tixPrimitive:Destructor .rlibrary.bkd0.border.frame.fsbox.lf.pane
+tixPrimitive:Destructor .rlibrary.bkd0.border.frame.fsbox.lf.types.shell.slistbox
+tixComboBox:Destructor .rlibrary.bkd0.border.frame.fsbox.lf.types
+tixPrimitive:Destructor .rlibrary.bkd0.border.frame.fsbox
+tixPrimitive:Destructor .rlibrary.bkd0
+tixOptionMenu:Destructor .rlibrary.bkd1.border.frame.om.fmt.om
+tixBalloon:ClientDestroy .icon.b .rlibrary.bkd1.border.frame.opt4.uncompress.btn
+tixPrimitive:Destructor .rlibrary.bkd1
+tixBalloon_XXButtonUp 360 60 1
+     tk::MbEnter .v_menu.set
+     tk::MbMotion .v_menu.set up 331 98
+     tk::MbMotion .v_menu.set up 316 115
+     tk::MbLeave .v_menu.set
+         if { [ .icon.rdsn cget -state ] == "normal" } {
+            .icon.rdsn configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.rdsn
+ .icon.rdsn configure -relief flat 
+     tk::ButtonLeave .icon.rdsn
+         if { [ .icon.rdsn cget -state ] == "normal" } {
+            .icon.rdsn configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.rdsn
+     tk::ButtonDown .icon.rdsn
+#--GUI(80)===>(Button).icon.rdsn <Button-1> {}
+callback  Gui_lic_recheck
+     tk::ButtonUp .icon.rdsn
+#--GUI(81)===>(Button).icon.rdsn <ButtonRelease-1> {}
+_tixRecordFlags <Configure> % 19332 00000000 ?? ?? ?? ?? 46 ?? ?? 0 ?? ?? ?? 641 4 216 ?? 0 0 ?? ?? ?? ?? 22 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.types ?? ??; 
+	tixWidgetDoWhenIdle tixComboBox:align .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.types
+    ; _tixDeleteFlags;
+_tixRecordFlags <Configure> % 19810 00000000 ?? ?? ?? ?? 46 ?? ?? 0 ?? ?? ?? 181 5 3 ?? 0 0 ?? ?? ?? ?? 22 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dir ?? ??; 
+	tixWidgetDoWhenIdle tixComboBox:align .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dir
+    ; _tixDeleteFlags;
+_tixRecordFlags <Configure> % 19892 00000000 ?? ?? ?? ?? 46 ?? ?? 0 ?? ?? ?? 440 5 3 ?? 0 0 ?? ?? ?? ?? 22 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file ?? ??; 
+	tixWidgetDoWhenIdle tixComboBox:align .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file
+    ; _tixDeleteFlags;
+tixBalloon_XXButtonUp 306 144 1
+ .icon.rdsn configure -relief flat 
+     tk::ButtonLeave .icon.rdsn
+ guiWinConfig .rdesign 832 746 224 34 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.lang_opt.vrlg 781 46 0 0 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.opt2 797 39 0 58 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.opt3 797 20 0 136 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.opt4 797 46 0 196 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.opt5 631 75 0 262 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.lang_opt 781 46 8 345 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.lang_opt.vrlg.opt1 781 20 0 0 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.lang_opt.vrlg.opt2 781 26 0 20 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.pad 797 7 2 2 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame 797 399 2 9 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.lang_opt.vrlg.opt1.supply 75 20 0 0 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.lang_opt.vrlg.opt2.able 184 20 0 3 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.lang_opt.vrlg.opt2.ent 571 23 184 1 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.lang_opt.vrlg.opt2.but 26 26 755 0 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.label 123 22 14 6 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border 802 411 6 15 
+ guiWinConfig .rdesign.sw.f2.window.bkd 815 268 0 0 
+ guiWinConfig .rdesign.sw.f2.window.bkd0 815 298 0 268 
+ guiWinConfig .rdesign.sw.f2.window.bkd1 815 315 0 566 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.pad 797 7 2 2 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame 797 399 2 9 
+ guiWinConfig .rdesign.sw.f2.window.bkd.file 799 260 8 4 
+ guiWinConfig .rdesign.sw.f2.window.bkd0.label 116 22 14 6 
+ guiWinConfig .rdesign.sw.f2.window.bkd0.border 802 276 6 15 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.label 123 22 14 6 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border 802 293 6 15 
+ guiWinConfig .rdesign.sw.f2.window 815 763 0 0 
+tixScrolledWidget:MasterGeomProc .rdesign.sw.f2.window.bkd.file.list
+tixScrolledListBox:Configure .rdesign.sw.f2.window.bkd.file.list
+ guiWinConfig .rdesign.sw.f2.window.bkd.file.list 791 238 4 22 
+ guiWinConfig .rdesign.sw.f2.window.bkd0.border.pad 797 7 2 2 
+ guiWinConfig .rdesign.sw.f2.window.bkd0.border.frame 797 264 2 9 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.pad 797 7 2 2 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame 797 281 2 9 
+ guiWinConfig .rdesign.sw.f2.window.bkd 815 150 0 0 
+ guiWinConfig .rdesign.sw.f2.window.bkd0 815 298 0 150 
+ guiWinConfig .rdesign.sw.f2.window.bkd1 815 315 0 448 
+tixScrolledWidget:ClientGeomProc .rdesign.sw.f2.window.bkd.file.list {} .rdesign.sw.f2.window.bkd.file.list.listbox
+ guiWinConfig .rdesign.sw.f2.window.bkd.file.list.listbox 791 238 0 0 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.opt2 797 39 0 39 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.opt3 797 20 0 78 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.opt4 797 46 0 98 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.opt5 631 75 0 144 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.lang_opt 781 46 8 227 
+ guiWinConfig .rdesign.sw.f2.window.bkd.file 799 142 8 4 
+ guiWinConfig .rdesign.sw.f2.window.bkd0.label 116 22 14 6 
+ guiWinConfig .rdesign.sw.f2.window.bkd0.border 802 276 6 15 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.label 123 22 14 6 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border 802 293 6 15 
+tixScrolledWidget:MasterGeomProc .rdesign.sw.f2.window.bkd.file.list
+tixScrolledListBox:Configure .rdesign.sw.f2.window.bkd.file.list
+ guiWinConfig .rdesign.sw.f2.window.bkd.file.list 791 120 4 22 
+ guiWinConfig .rdesign.sw.f2.window.bkd0.border.pad 797 7 2 2 
+ guiWinConfig .rdesign.sw.f2.window.bkd0.border.frame 797 264 2 9 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.pad 797 7 2 2 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame 797 281 2 9 
+tixScrolledWidget:ClientGeomProc .rdesign.sw.f2.window.bkd.file.list {} .rdesign.sw.f2.window.bkd.file.list.listbox
+ guiWinConfig .rdesign.sw.f2.window.bkd.file.list.listbox 791 120 0 0 
+     if {$tk_strictMotif} {
+	set tk::Priv(activeBg) [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb cget -activebackground]
+	.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb configure -activebackground [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb cget -background]
+    }
+    .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb activate [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb identify 4 56]
+     # Prevents <Leave> binding from being invoked.
+#--GUI(82)===>(Scrollbar).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb <B1-Leave> {}
+     # Prevents <Enter> binding from being invoked.
+#--GUI(83)===>(Scrollbar).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb <B1-Enter> {}
+     tk::ScrollButtonDown .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 7 57
+#--GUI(84)===>(Scrollbar).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb <Button-1> {}
+callback  Gui_lic_recheck
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 7 60
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 6 67
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 5 76
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 4 83
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 3 94
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 2 115
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 2 128
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 2 134
+     # Prevents <Leave> binding from being invoked.
+#--GUI(85)===>(Scrollbar).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb <B1-Leave> {}
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 2 139
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 3 143
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 4 144
+     tk::ScrollButtonUp .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 4 144
+#--GUI(86)===>(Scrollbar).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb <ButtonRelease-1> {}
+tixBalloon_XXButtonUp 415 449 1
+     if {$tk_strictMotif && [info exists tk::Priv(activeBg)]} {
+	.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb configure -activebackground $tk::Priv(activeBg)
+    }
+    .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb activate {}
+     if {$tk_strictMotif} {
+	set tk::Priv(activeBg) [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb cget -activebackground]
+	.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb configure -activebackground [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb cget -background]
+    }
+    .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb activate [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb identify 163 6]
+     if {$tk_strictMotif && [info exists tk::Priv(activeBg)]} {
+	.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb configure -activebackground $tk::Priv(activeBg)
+    }
+    .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb activate {}
+_tixRecordFlags <B1-Leave> % 23331 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyGrab ?? ?? 256 -884716419 ?? 97 64 ?? ?? 0 ?? ?? 0x000111 00000000 8 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 343 372; 
+	set tkPriv(x) 97
+	set tkPriv(y) 64
+	set tkPriv(X) 343
+	set tkPriv(Y) 372
+ 	tixHList:B1-Leave .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist
+    ; _tixDeleteFlags;
+#--GUI(87)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Leave> {}
+_tixRecordFlags <B1-Enter> % 23331 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyUngrab ?? ?? 256 -884716308 ?? 97 64 ?? ?? 0 ?? ?? 0x000111 00000000 7 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 343 372; 
+	tixHList:B1-Enter .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 97 64
+    ; _tixDeleteFlags;
+#--GUI(88)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Enter> {}
+_tixRecordFlags <ButtonPress-1> % 23331 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884716309 ?? 97 64 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 343 372; 
+	tixHList:Button-1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 97 64 ""
+    ; _tixDeleteFlags;
+#--GUI(89)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Button-1> {}
+callback  Gui_lic_recheck
+_tixRecordFlags <ButtonRelease-1> % 23409 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884716212 ?? 97 64 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 343 372; 
+	tixHList:ButtonRelease-1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 97 64
+    ; _tixDeleteFlags;
+#--GUI(90)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <ButtonRelease-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+tixBalloon_XXButtonUp 343 372 1
+_tixRecordFlags <B1-Leave> % 23727 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyGrab ?? ?? 256 -884716187 ?? 97 64 ?? ?? 0 ?? ?? 0x000111 00000000 8 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 343 372; 
+	set tkPriv(x) 97
+	set tkPriv(y) 64
+	set tkPriv(X) 343
+	set tkPriv(Y) 372
+ 	tixHList:B1-Leave .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist
+    ; _tixDeleteFlags;
+#--GUI(91)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Leave> {}
+_tixRecordFlags <B1-Enter> % 23727 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyUngrab ?? ?? 256 -884716128 ?? 97 64 ?? ?? 0 ?? ?? 0x000111 00000000 7 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 343 372; 
+	tixHList:B1-Enter .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 97 64
+    ; _tixDeleteFlags;
+#--GUI(92)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Enter> {}
+_tixRecordFlags <ButtonPress-1> % 23727 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884716133 ?? 97 64 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 343 372; 
+	tixHList:Button-1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 97 64 ""
+    ; _tixDeleteFlags;
+#--GUI(93)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Button-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+callback  Gui_lic_recheck
+_tixRecordFlags <ButtonRelease-1> % 23743 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884716061 ?? 97 64 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 343 372; 
+	tixHList:ButtonRelease-1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 97 64
+    ; _tixDeleteFlags;
+#--GUI(94)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <ButtonRelease-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+tixBalloon_XXButtonUp 343 372 1
+_tixRecordFlags <Return> % 23976 ?? ?? ?? ?? ?? ?? 44 ?? ?? ?? 0 -884713328 ?? 89 64 \r ?? 0 Return 65293 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 335 372; 
+	tixHList:Keyboard-Activate .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 
+    ; _tixDeleteFlags;
+#--GUI(95)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Return> {}
+     if {$tk_strictMotif} {
+	set tk::Priv(activeBg) [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb cget -activebackground]
+	.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb configure -activebackground [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb cget -background]
+    }
+    .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb activate [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb identify 76 8]
+     if {$tk_strictMotif && [info exists tk::Priv(activeBg)]} {
+	.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb configure -activebackground $tk::Priv(activeBg)
+    }
+    .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb activate {}
+     if {$tk_strictMotif} {
+	set tk::Priv(activeBg) [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb cget -activebackground]
+	.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb configure -activebackground [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb cget -background]
+    }
+    .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb activate [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb identify 91 8]
+     if {$tk_strictMotif && [info exists tk::Priv(activeBg)]} {
+	.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb configure -activebackground $tk::Priv(activeBg)
+    }
+    .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb activate {}
+_tixRecordFlags <B1-Leave> % 24386 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyGrab ?? ?? 256 -884712167 ?? 93 126 ?? ?? 0 ?? ?? 0x000111 00000000 8 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 339 434; 
+	set tkPriv(x) 93
+	set tkPriv(y) 126
+	set tkPriv(X) 339
+	set tkPriv(Y) 434
+ 	tixHList:B1-Leave .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist
+    ; _tixDeleteFlags;
+#--GUI(96)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Leave> {}
+_tixRecordFlags <B1-Enter> % 24386 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyUngrab ?? ?? 256 -884712160 ?? 93 126 ?? ?? 0 ?? ?? 0x000111 00000000 7 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 339 434; 
+	tixHList:B1-Enter .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 93 126
+    ; _tixDeleteFlags;
+#--GUI(97)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Enter> {}
+_tixRecordFlags <ButtonPress-1> % 24386 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884712161 ?? 93 126 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 339 434; 
+	tixHList:Button-1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 93 126 ""
+    ; _tixDeleteFlags;
+#--GUI(98)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Button-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+callback  Gui_lic_recheck
+_tixRecordFlags <ButtonRelease-1> % 24460 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884712065 ?? 93 126 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 339 434; 
+	tixHList:ButtonRelease-1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 93 126
+    ; _tixDeleteFlags;
+#--GUI(99)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <ButtonRelease-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V/lecTutorial lecTutorial}}
+tixBalloon_XXButtonUp 339 434 1
+_tixRecordFlags <Return> % 24767 ?? ?? ?? ?? ?? ?? 44 ?? ?? ?? 0 -884711411 ?? 93 126 \r ?? 0 Return 65293 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 339 434; 
+	tixHList:Keyboard-Activate .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 
+    ; _tixDeleteFlags;
+#--GUI(100)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Return> {}
+_tixRecordFlags <Down> % 25064 ?? ?? ?? ?? ?? ?? 133 ?? ?? ?? 0 -884699898 ?? 86 96 {} ?? 0 Down 65364 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 332 404; 
+	tixHList:UpDown .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist next ""
+    ; _tixDeleteFlags;
+#--GUI(101)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Down> {}
+_tixRecordFlags <Down> % 25124 ?? ?? ?? ?? ?? ?? 133 ?? ?? ?? 0 -884699666 ?? 86 96 {} ?? 0 Down 65364 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 332 404; 
+	tixHList:UpDown .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist next ""
+    ; _tixDeleteFlags;
+#--GUI(102)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Down> {}
+_tixRecordFlags <Down> % 25226 ?? ?? ?? ?? ?? ?? 133 ?? ?? ?? 0 -884699026 ?? 86 96 {} ?? 0 Down 65364 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 332 404; 
+	tixHList:UpDown .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist next ""
+    ; _tixDeleteFlags;
+#--GUI(103)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Down> {}
+_tixRecordFlags <Down> % 25328 ?? ?? ?? ?? ?? ?? 133 ?? ?? ?? 0 -884691235 ?? 86 96 {} ?? 0 Down 65364 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 332 404; 
+	tixHList:UpDown .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist next ""
+    ; _tixDeleteFlags;
+#--GUI(104)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Down> {}
+_tixRecordFlags <Up> % 25330 ?? ?? ?? ?? ?? ?? 134 ?? ?? ?? 0 -884690787 ?? 86 96 {} ?? 0 Up 65362 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 332 404; 
+	tixHList:UpDown .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist prev ""
+    ; _tixDeleteFlags;
+#--GUI(105)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Up> {}
+_tixRecordFlags <Down> % 25390 ?? ?? ?? ?? ?? ?? 133 ?? ?? ?? 0 -884671173 ?? 86 96 {} ?? 0 Down 65364 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 332 404; 
+	tixHList:UpDown .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist next ""
+    ; _tixDeleteFlags;
+#--GUI(106)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Down> {}
+_tixRecordFlags <Up> % 25450 ?? ?? ?? ?? ?? ?? 134 ?? ?? ?? 0 -884670725 ?? 86 96 {} ?? 0 Up 65362 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 332 404; 
+	tixHList:UpDown .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist prev ""
+    ; _tixDeleteFlags;
+#--GUI(107)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Up> {}
+_tixRecordFlags <Up> % 25510 ?? ?? ?? ?? ?? ?? 134 ?? ?? ?? 0 -884669245 ?? 86 96 {} ?? 0 Up 65362 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 332 404; 
+	tixHList:UpDown .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist prev ""
+    ; _tixDeleteFlags;
+#--GUI(108)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Up> {}
+_tixRecordFlags <Down> % 25570 ?? ?? ?? ?? ?? ?? 133 ?? ?? ?? 0 -884667941 ?? 86 96 {} ?? 0 Down 65364 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 332 404; 
+	tixHList:UpDown .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist next ""
+    ; _tixDeleteFlags;
+#--GUI(109)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Down> {}
+_tixRecordFlags <Down> % 25630 ?? ?? ?? ?? ?? ?? 133 ?? ?? ?? 0 -884667725 ?? 86 96 {} ?? 0 Down 65364 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 332 404; 
+	tixHList:UpDown .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist next ""
+    ; _tixDeleteFlags;
+#--GUI(110)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Down> {}
+_tixRecordFlags <Return> % 25690 ?? ?? ?? ?? ?? ?? 44 ?? ?? ?? 0 -884667093 ?? 86 96 \r ?? 0 Return 65293 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 332 404; 
+	tixHList:Keyboard-Activate .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 
+    ; _tixDeleteFlags;
+#--GUI(111)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Return> {}
+     tk::ButtonEnter .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.cancel
+     tk::ButtonLeave .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.cancel
+     tk::ButtonEnter .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.cancel
+     tk::ButtonLeave .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.cancel
+     tk::ButtonEnter .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.ok
+     tk::ButtonLeave .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.ok
+     tk::ButtonEnter .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.ok
+     tk::ButtonDown .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.ok
+#--GUI(112)===>(Button).rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.ok <Button-1> {}
+callback  Gui_lic_recheck
+     tk::ButtonUp .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.ok
+#--GUI(113)===>(Button).rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.ok <ButtonRelease-1> {}
+tixBalloon_XXButtonUp 978 270 1
+     tk::ButtonLeave .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.ok
+     tk::ButtonEnter .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.ok
+     tk::ButtonLeave .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.ok
+     tk::ButtonEnter .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.cancel
+     tk::ButtonLeave .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.cancel
+     tk::ButtonEnter .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.cancel
+     tk::ButtonDown .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.cancel
+#--GUI(114)===>(Button).rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.cancel <Button-1> {}
+callback  Gui_lic_recheck
+     tk::ButtonUp .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.cancel
+#--GUI(115)===>(Button).rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.cancel <ButtonRelease-1> {}
+tixBalloon_XXButtonUp 968 308 1
+     tk::ButtonLeave .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.cancel
+     tk::ButtonEnter .rdesign.bt.ok
+     tk::ButtonLeave .rdesign.bt.ok
+     tk::ButtonEnter .rdesign.bt.ok
+     tk::ButtonDown .rdesign.bt.ok
+#--GUI(116)===>(Button).rdesign.bt.ok <Button-1> {}
+callback  Gui_lic_recheck
+     tk::ButtonUp .rdesign.bt.ok
+#--GUI(117)===>(Button).rdesign.bt.ok <ButtonRelease-1> {}
+ guiWinConfig .b.frame.lab 189 22 1 1 
+ guiWinConfig .b.frame.lab 257 22 1 1 
+tixScrolledWidget:ClientGeomProc .a.pane.f1.middle.golden.fm.tree {} .a.pane.f1.middle.golden.fm.tree.f1
+ guiWinConfig .a.pane.f1.middle.golden.fm.tree.f1 363 228 0 0 
+tixScrolledWidget:ClientGeomProc .a.pane.f1.middle.golden.fm.tree {} .a.pane.f1.middle.golden.fm.tree.hsb
+ guiWinConfig .a.pane.f1.middle.golden.fm.tree.hsb 363 13 0 228 
+ guiWinConfig .a.pane.f1.middle.golden.fm.tree.f1.hlist 361 226 1 1 
+tixScrolledWidget:ClientGeomProc .a.pane.f1.middle.golden.fm.tree {} .a.pane.f1.middle.golden.fm.tree.f1
+ guiWinConfig .a.pane.f1.middle.golden.fm.tree.f1 363 241 0 0 
+ guiWinConfig .a.pane.f1.middle.golden.fm.tree.f1.hlist 361 239 1 1 
+tixScrolledWidget:ClientGeomProc .a.pane.f1.middle.golden.fm.tree {} .a.pane.f1.middle.golden.fm.tree.f1
+ guiWinConfig .a.pane.f1.middle.golden.fm.tree.f1 363 228 0 0 
+tixScrolledWidget:ClientGeomProc .a.pane.f1.middle.golden.fm.tree {} .a.pane.f1.middle.golden.fm.tree.hsb
+ guiWinConfig .a.pane.f1.middle.golden.fm.tree.hsb 363 13 0 228 
+ guiWinConfig .a.pane.f1.middle.golden.fm.tree.f1.hlist 361 226 1 1 
+tixPrimitive:Destructor .rdesign.sw.f2.window.bkd.file.list
+tixPrimitive:Destructor .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox
+tixComboBox:Destructor .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dir
+tixPrimitive:Destructor .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist
+tixPrimitive:Destructor .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox
+tixComboBox:Destructor .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file
+tixPrimitive:Destructor .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist
+tixPrimitive:Destructor .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane
+tixPrimitive:Destructor .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.types.shell.slistbox
+tixComboBox:Destructor .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.types
+tixPrimitive:Destructor .rdesign.sw.f2.window.bkd0.border.frame.fsbox
+tixPrimitive:Destructor .rdesign.sw.f2.window.bkd0
+tixOptionMenu:Destructor .rdesign.sw.f2.window.bkd1.border.frame.om.fmt.om
+tixBalloon:ClientDestroy .icon.b .rdesign.sw.f2.window.bkd1.border.frame.opt4.uncompress.btn
+tixBalloon:ClientDestroy .icon.b .rdesign.sw.f2.window.bkd1.border.frame.lang_opt.vrlg.opt2.but
+tixPrimitive:Destructor .rdesign.sw.f2.window.bkd1
+tixPrimitive:Destructor .rdesign.sw
+ guiWinConfig .a.pane.f3.command.text.text.promt8 67 22 1 5 
+tixBalloon_XXButtonUp 279 69 1
+         if { [ .icon.hierCmp cget -state ] == "normal" } {
+            .icon.hierCmp configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.hierCmp
+ .icon.hierCmp configure -relief flat 
+     tk::ButtonLeave .icon.hierCmp
+         if { [ .icon.rdsn cget -state ] == "normal" } {
+            .icon.rdsn configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.rdsn
+ guiWinConfig .b.frame.lab 312 22 1 1 
+ .icon.rdsn configure -relief flat 
+     tk::ButtonLeave .icon.rdsn
+         if { [ .icon.rdsn cget -state ] == "normal" } {
+            .icon.rdsn configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.rdsn
+     tk::ButtonDown .icon.rdsn
+#--GUI(118)===>(Button).icon.rdsn <Button-1> {}
+callback  Gui_lic_recheck
+     tk::ButtonUp .icon.rdsn
+#--GUI(119)===>(Button).icon.rdsn <ButtonRelease-1> {}
+_tixRecordFlags <Configure> % 34857 00000000 ?? ?? ?? ?? 46 ?? ?? 0 ?? ?? ?? 641 4 216 ?? 0 0 ?? ?? ?? ?? 22 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.types ?? ??; 
+	tixWidgetDoWhenIdle tixComboBox:align .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.types
+    ; _tixDeleteFlags;
+_tixRecordFlags <Configure> % 35335 00000000 ?? ?? ?? ?? 46 ?? ?? 0 ?? ?? ?? 181 5 3 ?? 0 0 ?? ?? ?? ?? 22 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dir ?? ??; 
+	tixWidgetDoWhenIdle tixComboBox:align .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dir
+    ; _tixDeleteFlags;
+_tixRecordFlags <Configure> % 35417 00000000 ?? ?? ?? ?? 46 ?? ?? 0 ?? ?? ?? 440 5 3 ?? 0 0 ?? ?? ?? ?? 22 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file ?? ??; 
+	tixWidgetDoWhenIdle tixComboBox:align .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file
+    ; _tixDeleteFlags;
+tixBalloon_XXButtonUp 315 138 1
+ .icon.rdsn configure -relief flat 
+     tk::ButtonLeave .icon.rdsn
+ guiWinConfig .rdesign 832 746 224 44 
+ guiWinConfig .b.frame.lab 4 22 1 1 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.lang_opt.vrlg 781 46 0 0 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.opt2 797 39 0 58 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.opt3 797 20 0 136 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.opt4 797 46 0 196 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.opt5 631 75 0 262 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.lang_opt 781 46 8 345 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.lang_opt.vrlg.opt1 781 20 0 0 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.lang_opt.vrlg.opt2 781 26 0 20 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.pad 797 7 2 2 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame 797 399 2 9 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.lang_opt.vrlg.opt1.supply 75 20 0 0 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.lang_opt.vrlg.opt2.able 184 20 0 3 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.lang_opt.vrlg.opt2.ent 571 23 184 1 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.lang_opt.vrlg.opt2.but 26 26 755 0 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.label 123 22 14 6 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border 802 411 6 15 
+ guiWinConfig .rdesign.sw.f2.window.bkd 815 268 0 0 
+ guiWinConfig .rdesign.sw.f2.window.bkd0 815 298 0 268 
+ guiWinConfig .rdesign.sw.f2.window.bkd1 815 315 0 566 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.pad 797 7 2 2 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame 797 399 2 9 
+ guiWinConfig .rdesign.sw.f2.window.bkd.file 799 260 8 4 
+ guiWinConfig .rdesign.sw.f2.window.bkd0.label 116 22 14 6 
+ guiWinConfig .rdesign.sw.f2.window.bkd0.border 802 276 6 15 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.label 123 22 14 6 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border 802 293 6 15 
+ guiWinConfig .rdesign.sw.f2.window 815 763 0 0 
+tixScrolledWidget:MasterGeomProc .rdesign.sw.f2.window.bkd.file.list
+tixScrolledListBox:Configure .rdesign.sw.f2.window.bkd.file.list
+ guiWinConfig .rdesign.sw.f2.window.bkd.file.list 791 238 4 22 
+ guiWinConfig .rdesign.sw.f2.window.bkd0.border.pad 797 7 2 2 
+ guiWinConfig .rdesign.sw.f2.window.bkd0.border.frame 797 264 2 9 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.pad 797 7 2 2 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame 797 281 2 9 
+ guiWinConfig .rdesign.sw.f2.window.bkd 815 150 0 0 
+ guiWinConfig .rdesign.sw.f2.window.bkd0 815 298 0 150 
+ guiWinConfig .rdesign.sw.f2.window.bkd1 815 315 0 448 
+tixScrolledWidget:ClientGeomProc .rdesign.sw.f2.window.bkd.file.list {} .rdesign.sw.f2.window.bkd.file.list.listbox
+ guiWinConfig .rdesign.sw.f2.window.bkd.file.list.listbox 791 238 0 0 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.opt2 797 39 0 39 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.opt3 797 20 0 78 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.opt4 797 46 0 98 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.opt5 631 75 0 144 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame.lang_opt 781 46 8 227 
+ guiWinConfig .rdesign.sw.f2.window.bkd.file 799 142 8 4 
+ guiWinConfig .rdesign.sw.f2.window.bkd0.label 116 22 14 6 
+ guiWinConfig .rdesign.sw.f2.window.bkd0.border 802 276 6 15 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.label 123 22 14 6 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border 802 293 6 15 
+tixScrolledWidget:MasterGeomProc .rdesign.sw.f2.window.bkd.file.list
+tixScrolledListBox:Configure .rdesign.sw.f2.window.bkd.file.list
+ guiWinConfig .rdesign.sw.f2.window.bkd.file.list 791 120 4 22 
+ guiWinConfig .rdesign.sw.f2.window.bkd0.border.pad 797 7 2 2 
+ guiWinConfig .rdesign.sw.f2.window.bkd0.border.frame 797 264 2 9 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.pad 797 7 2 2 
+ guiWinConfig .rdesign.sw.f2.window.bkd1.border.frame 797 281 2 9 
+tixScrolledWidget:ClientGeomProc .rdesign.sw.f2.window.bkd.file.list {} .rdesign.sw.f2.window.bkd.file.list.listbox
+ guiWinConfig .rdesign.sw.f2.window.bkd.file.list.listbox 791 120 0 0 
+     if {$tk_strictMotif} {
+	set tk::Priv(activeBg) [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb cget -activebackground]
+	.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb configure -activebackground [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb cget -background]
+    }
+    .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb activate [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb identify 0 31]
+     # Prevents <Leave> binding from being invoked.
+#--GUI(120)===>(Scrollbar).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb <B1-Leave> {}
+     # Prevents <Enter> binding from being invoked.
+#--GUI(121)===>(Scrollbar).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb <B1-Enter> {}
+     tk::ScrollButtonDown .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 8 50
+#--GUI(122)===>(Scrollbar).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb <Button-1> {}
+callback  Gui_lic_recheck
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 8 51
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 8 57
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 8 63
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 8 73
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 8 84
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 8 95
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 8 107
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 8 115
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 8 122
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 8 126
+     tk::ScrollDrag .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 8 127
+     tk::ScrollButtonUp .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb 8 127
+#--GUI(123)===>(Scrollbar).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb <ButtonRelease-1> {}
+tixBalloon_XXButtonUp 419 442 1
+     if {$tk_strictMotif && [info exists tk::Priv(activeBg)]} {
+	.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb configure -activebackground $tk::Priv(activeBg)
+    }
+    .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb activate {}
+_tixRecordFlags <B1-Leave> % 38793 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyGrab ?? ?? 256 -884648616 ?? 128 73 ?? ?? 0 ?? ?? 0x000111 00000000 8 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	set tkPriv(x) 128
+	set tkPriv(y) 73
+	set tkPriv(X) 374
+	set tkPriv(Y) 391
+ 	tixHList:B1-Leave .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist
+    ; _tixDeleteFlags;
+#--GUI(124)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Leave> {}
+_tixRecordFlags <B1-Enter> % 38793 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyUngrab ?? ?? 256 -884648361 ?? 128 73 ?? ?? 0 ?? ?? 0x000111 00000000 7 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	tixHList:B1-Enter .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 128 73
+    ; _tixDeleteFlags;
+#--GUI(125)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Enter> {}
+_tixRecordFlags <ButtonPress-1> % 38793 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884648362 ?? 128 73 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	tixHList:Button-1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 128 73 ""
+    ; _tixDeleteFlags;
+#--GUI(126)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Button-1> {}
+callback  Gui_lic_recheck
+_tixRecordFlags <ButtonRelease-1> % 38871 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884648298 ?? 128 73 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	tixHList:ButtonRelease-1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 128 73
+    ; _tixDeleteFlags;
+#--GUI(127)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <ButtonRelease-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+tixBalloon_XXButtonUp 374 391 1
+_tixRecordFlags <B1-Leave> % 38879 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyGrab ?? ?? 256 -884648294 ?? 128 73 ?? ?? 0 ?? ?? 0x000111 00000000 8 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	set tkPriv(x) 128
+	set tkPriv(y) 73
+	set tkPriv(X) 374
+	set tkPriv(Y) 391
+ 	tixHList:B1-Leave .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist
+    ; _tixDeleteFlags;
+#--GUI(128)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Leave> {}
+_tixRecordFlags <B1-Enter> % 38891 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyUngrab ?? ?? 256 -884648291 ?? 128 73 ?? ?? 0 ?? ?? 0x000111 00000000 7 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	tixHList:B1-Enter .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 128 73
+    ; _tixDeleteFlags;
+#--GUI(129)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Enter> {}
+_tixRecordFlags <ButtonPress-1> % 38891 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884648292 ?? 128 73 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	tixHList:Button-1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 128 73 ""
+    ; _tixDeleteFlags;
+#--GUI(130)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Button-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+callback  Gui_lic_recheck
+_tixRecordFlags <ButtonRelease-1> % 38893 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884648286 ?? 128 73 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	tixHList:ButtonRelease-1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 128 73
+    ; _tixDeleteFlags;
+#--GUI(131)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <ButtonRelease-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+tixBalloon_XXButtonUp 374 391 1
+_tixRecordFlags <B1-Leave> % 39223 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyGrab ?? ?? 256 -884648220 ?? 128 73 ?? ?? 0 ?? ?? 0x000111 00000000 8 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	set tkPriv(x) 128
+	set tkPriv(y) 73
+	set tkPriv(X) 374
+	set tkPriv(Y) 391
+ 	tixHList:B1-Leave .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist
+    ; _tixDeleteFlags;
+#--GUI(132)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Leave> {}
+_tixRecordFlags <B1-Enter> % 39223 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyUngrab ?? ?? 256 -884647445 ?? 128 73 ?? ?? 0 ?? ?? 0x000111 00000000 7 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	tixHList:B1-Enter .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 128 73
+    ; _tixDeleteFlags;
+#--GUI(133)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Enter> {}
+_tixRecordFlags <ButtonPress-1> % 39223 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884647446 ?? 128 73 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	tixHList:Button-1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 128 73 ""
+    ; _tixDeleteFlags;
+#--GUI(134)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Button-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+callback  Gui_lic_recheck
+_tixRecordFlags <ButtonRelease-1> % 39239 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884647408 ?? 128 73 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	tixHList:ButtonRelease-1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 128 73
+    ; _tixDeleteFlags;
+#--GUI(135)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <ButtonRelease-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+tixBalloon_XXButtonUp 374 391 1
+_tixRecordFlags <B1-Leave> % 39246 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyGrab ?? ?? 256 -884647403 ?? 128 73 ?? ?? 0 ?? ?? 0x000111 00000000 8 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	set tkPriv(x) 128
+	set tkPriv(y) 73
+	set tkPriv(X) 374
+	set tkPriv(Y) 391
+ 	tixHList:B1-Leave .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist
+    ; _tixDeleteFlags;
+#--GUI(136)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Leave> {}
+_tixRecordFlags <B1-Enter> % 39247 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyUngrab ?? ?? 256 -884647401 ?? 128 73 ?? ?? 0 ?? ?? 0x000111 00000000 7 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	tixHList:B1-Enter .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 128 73
+    ; _tixDeleteFlags;
+#--GUI(137)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Enter> {}
+_tixRecordFlags <ButtonPress-1> % 39247 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884647401 ?? 128 73 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	tixHList:Button-1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 128 73 ""
+    ; _tixDeleteFlags;
+#--GUI(138)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Button-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+callback  Gui_lic_recheck
+_tixRecordFlags <ButtonRelease-1> % 39260 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884647394 ?? 128 73 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	tixHList:ButtonRelease-1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 128 73
+    ; _tixDeleteFlags;
+#--GUI(139)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <ButtonRelease-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+tixBalloon_XXButtonUp 374 391 1
+_tixRecordFlags <B1-Leave> % 39404 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyGrab ?? ?? 256 -884647355 ?? 128 73 ?? ?? 0 ?? ?? 0x000111 00000000 8 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	set tkPriv(x) 128
+	set tkPriv(y) 73
+	set tkPriv(X) 374
+	set tkPriv(Y) 391
+ 	tixHList:B1-Leave .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist
+    ; _tixDeleteFlags;
+#--GUI(140)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Leave> {}
+_tixRecordFlags <B1-Enter> % 39404 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyUngrab ?? ?? 256 -884647317 ?? 128 73 ?? ?? 0 ?? ?? 0x000111 00000000 7 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	tixHList:B1-Enter .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 128 73
+    ; _tixDeleteFlags;
+#--GUI(141)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Enter> {}
+_tixRecordFlags <ButtonPress-1> % 39404 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884647318 ?? 128 73 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	tixHList:Button-1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 128 73 ""
+    ; _tixDeleteFlags;
+#--GUI(142)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Button-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+callback  Gui_lic_recheck
+_tixRecordFlags <ButtonRelease-1> % 39408 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884647311 ?? 128 73 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	tixHList:ButtonRelease-1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 128 73
+    ; _tixDeleteFlags;
+#--GUI(143)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <ButtonRelease-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+tixBalloon_XXButtonUp 374 391 1
+_tixRecordFlags <Return> % 39550 ?? ?? ?? ?? ?? ?? 44 ?? ?? ?? 0 -884646622 ?? 128 73 \r ?? 0 Return 65293 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 374 391; 
+	tixHList:Keyboard-Activate .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 
+    ; _tixDeleteFlags;
+#--GUI(144)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Return> {}
+     if {$tk_strictMotif} {
+	set tk::Priv(activeBg) [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb cget -activebackground]
+	.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb configure -activebackground [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb cget -background]
+    }
+    .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb activate [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb identify 130 3]
+     if {$tk_strictMotif && [info exists tk::Priv(activeBg)]} {
+	.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb configure -activebackground $tk::Priv(activeBg)
+    }
+    .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.hsb activate {}
+_tixRecordFlags <B1-Leave> % 39864 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyGrab ?? ?? 256 -884645630 ?? 124 119 ?? ?? 0 ?? ?? 0x000111 00000000 8 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 370 437; 
+	set tkPriv(x) 124
+	set tkPriv(y) 119
+	set tkPriv(X) 370
+	set tkPriv(Y) 437
+ 	tixHList:B1-Leave .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist
+    ; _tixDeleteFlags;
+#--GUI(145)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Leave> {}
+_tixRecordFlags <B1-Enter> % 39864 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyUngrab ?? ?? 256 -884645383 ?? 124 119 ?? ?? 0 ?? ?? 0x000111 00000000 7 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 370 437; 
+	tixHList:B1-Enter .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 124 119
+    ; _tixDeleteFlags;
+#--GUI(146)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Enter> {}
+_tixRecordFlags <ButtonPress-1> % 39864 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884645384 ?? 124 119 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 370 437; 
+	tixHList:Button-1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 124 119 ""
+    ; _tixDeleteFlags;
+#--GUI(147)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Button-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V Verification_EE382V}}
+callback  Gui_lic_recheck
+_tixRecordFlags <ButtonRelease-1> % 39938 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884645320 ?? 124 119 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 370 437; 
+	tixHList:ButtonRelease-1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 124 119
+    ; _tixDeleteFlags;
+#--GUI(148)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <ButtonRelease-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V/lecTutorial lecTutorial}}
+tixBalloon_XXButtonUp 370 437 1
+_tixRecordFlags <B1-Leave> % 39946 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyGrab ?? ?? 256 -884645315 ?? 124 119 ?? ?? 0 ?? ?? 0x000111 00000000 8 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 370 437; 
+	set tkPriv(x) 124
+	set tkPriv(y) 119
+	set tkPriv(X) 370
+	set tkPriv(Y) 437
+ 	tixHList:B1-Leave .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist
+    ; _tixDeleteFlags;
+#--GUI(149)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Leave> {}
+_tixRecordFlags <B1-Enter> % 39946 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyUngrab ?? ?? 256 -884645313 ?? 124 119 ?? ?? 0 ?? ?? 0x000111 00000000 7 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 370 437; 
+	tixHList:B1-Enter .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 124 119
+    ; _tixDeleteFlags;
+#--GUI(150)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <B1-Enter> {}
+_tixRecordFlags <ButtonPress-1> % 39946 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884645314 ?? 124 119 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 370 437; 
+	tixHList:Button-1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 124 119 ""
+    ; _tixDeleteFlags;
+#--GUI(151)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Button-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V/lecTutorial lecTutorial}}
+callback  Gui_lic_recheck
+_tixRecordFlags <ButtonRelease-1> % 39960 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884645307 ?? 124 119 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 370 437; 
+	tixHList:ButtonRelease-1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 124 119
+    ; _tixDeleteFlags;
+#--GUI(152)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <ButtonRelease-1> {{/home/ecelrc/students/dsantamaria/Verification_EE382V/lecTutorial lecTutorial}}
+tixBalloon_XXButtonUp 370 437 1
+_tixRecordFlags <Return> % 40279 ?? ?? ?? ?? ?? ?? 44 ?? ?? ?? 0 -884644518 ?? 124 119 \r ?? 0 Return 65293 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 370 437; 
+	tixHList:Keyboard-Activate .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 
+    ; _tixDeleteFlags;
+#--GUI(153)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Return> {}
+     if {$tk_strictMotif} {
+	set tk::Priv(activeBg) [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb cget -activebackground]
+	.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb configure -activebackground [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb cget -background]
+    }
+    .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb activate [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb identify 4 106]
+_tixRecordFlags <Down> % 40587 ?? ?? ?? ?? ?? ?? 133 ?? ?? ?? 0 -884643142 ?? 174 103 {} ?? 0 Down 65364 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 420 421; 
+	tixHList:UpDown .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist next ""
+    ; _tixDeleteFlags;
+#--GUI(154)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Down> {}
+_tixRecordFlags <Down> % 40647 ?? ?? ?? ?? ?? ?? 133 ?? ?? ?? 0 -884642966 ?? 174 103 {} ?? 0 Down 65364 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 420 421; 
+	tixHList:UpDown .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist next ""
+    ; _tixDeleteFlags;
+#--GUI(155)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Down> {}
+_tixRecordFlags <Up> % 40749 ?? ?? ?? ?? ?? ?? 134 ?? ?? ?? 0 -884642526 ?? 174 103 {} ?? 0 Up 65362 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 420 421; 
+	tixHList:UpDown .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist prev ""
+    ; _tixDeleteFlags;
+#--GUI(156)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Up> {}
+_tixRecordFlags <Return> % 40809 ?? ?? ?? ?? ?? ?? 44 ?? ?? ?? 0 -884642182 ?? 174 103 \r ?? 0 Return 65293 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 420 421; 
+	tixHList:Keyboard-Activate .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist 
+    ; _tixDeleteFlags;
+#--GUI(157)===>(TixHList).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.f1.hlist <Key-Return> {}
+     if {$tk_strictMotif && [info exists tk::Priv(activeBg)]} {
+	.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb configure -activebackground $tk::Priv(activeBg)
+    }
+    .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb activate {}
+     if {$tk_strictMotif} {
+	set tk::Priv(activeBg) [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb cget -activebackground]
+	.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb configure -activebackground [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb cget -background]
+    }
+    .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb activate [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb identify 9 106]
+     if {$tk_strictMotif && [info exists tk::Priv(activeBg)]} {
+	.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb configure -activebackground $tk::Priv(activeBg)
+    }
+    .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb activate {}
+     if {$tk_strictMotif} {
+	set tk::Priv(activeBg) [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb cget -activebackground]
+	.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb configure -activebackground [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb cget -background]
+    }
+    .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb activate [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb identify 9 106]
+     if {$tk_strictMotif && [info exists tk::Priv(activeBg)]} {
+	.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb configure -activebackground $tk::Priv(activeBg)
+    }
+    .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist.vsb activate {}
+tixPanedWindow:HighlightBtn .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane 1
+tixPanedWindow:DeHighlightBtn .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane 1
+     set tk::Priv(x) 117
+    tk::EntryAutoScan .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry
+#--GUI(158)===>(Entry).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry <B1-Leave> {}
+     tk::CancelRepeat
+#--GUI(159)===>(Entry).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry <B1-Enter> {}
+     tk::EntryButton1 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry 117
+    .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry selection clear
+#--GUI(160)===>(Entry).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry <Button-1> {}
+_tixRecordFlags <1> % 41297 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884640702 ?? 117 7 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry 552 294; 
+	if {[set [tixGetMegaWidget .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry TixComboBox](-state)] ne "disabled"} {
+	    focus .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry
+	}
+    ; _tixDeleteFlags;
+#--GUI(161)===>(Entry).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry <Button-1> {}
+callback  Gui_lic_recheck
+_tixRecordFlags <FocusIn> % 41314 ?? ?? ?? NotifyNonlinearVirtual ?? ?? ?? NotifyNormal ?? ?? ?? ?? ?? ?? ?? ?? ?? 0 ?? ?? ?? ?? 9 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file ?? ??; 
+	if {"NotifyNonlinearVirtual" eq "NotifyNonlinear" || "NotifyNonlinearVirtual" eq "NotifyNonlinearVirtual"} {
+	    focus [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file subwidget entry]
+ 	    # CYGNUS: Setting the selection if there is no data
+	    # causes backspace to misbehave.
+	    if {[[set .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file(w:entry)] get] ne ""} {
+  		[set .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file(w:entry)] selection from 0
+  		[set .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file(w:entry)] selection to end
+  	    }
+ 	}
+    ; _tixDeleteFlags;
+#--GUI(162)===>(TixComboBox).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file <FocusIn> {}
+     tk::CancelRepeat
+#--GUI(163)===>(Entry).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry <ButtonRelease-1> {}
+_tixRecordFlags <ButtonRelease-1> % 41299 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884640696 ?? 117 7 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry 552 294; 
+	tixComboBox:WidUp [tixGetMegaWidget .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry TixComboBox]
+    ; _tixDeleteFlags;
+#--GUI(164)===>(Entry).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry <ButtonRelease-1> {}
+tixBalloon_XXButtonUp 552 294 1
+     tk::EntryBackspace .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry
+#--GUI(165)===>(Entry).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry <Key-BackSpace> {}
+_tixRecordFlags <KeyPress> % 41415 ?? ?? ?? ?? ?? ?? 59 ?? ?? ?? 0 -884639846 ?? 117 7  ?? 0 BackSpace 65288 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry 552 294; 
+	tixComboBox:EntKeyPress [tixGetMegaWidget .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry TixComboBox]
+    ; _tixDeleteFlags;
+#--GUI(166)===>(Entry).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry <Key> {""}
+     tk::CancelRepeat
+    tk::EntryInsert .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry {}
+#--GUI(167)===>(Entry).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry <Key> {"{}"}
+_tixRecordFlags <KeyPress> % 41436 ?? ?? ?? ?? ?? ?? 68 ?? ?? ?? 0 -884639423 ?? 117 7 {} ?? 0 Shift_R 65506 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry 552 294; 
+	tixComboBox:EntKeyPress [tixGetMegaWidget .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry TixComboBox]
+    ; _tixDeleteFlags;
+#--GUI(168)===>(Entry).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry <Key> {"{}"}
+     tk::CancelRepeat
+    tk::EntryInsert .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry *
+#--GUI(169)===>(Entry).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry <Key> {"*"}
+_tixRecordFlags <KeyPress> % 41446 ?? ?? ?? ?? ?? ?? 36 ?? ?? ?? 1 -884639038 ?? 117 7 * ?? 0 asterisk 42 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry 552 294; 
+	tixComboBox:EntKeyPress [tixGetMegaWidget .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry TixComboBox]
+    ; _tixDeleteFlags;
+#--GUI(170)===>(Entry).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry <Key> {"*"}
+# nothing
+#--GUI(171)===>(Entry).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry <Key-Return> {}
+_tixRecordFlags <Return> % 41475 ?? ?? ?? ?? ?? ?? 44 ?? ?? ?? 0 -884638806 ?? 117 7 \r ?? 0 Return 65293 0x000111 00000000 2 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry 552 294; 
+	tixComboBox:EntReturnKey [tixGetMegaWidget .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry TixComboBox]
+    ; _tixDeleteFlags;
+#--GUI(172)===>(Entry).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.frame.entry <Key-Return> {}
+     set tk::Priv(x) 98
+    set tk::Priv(y) 20
+    tk::ListboxAutoScan .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox
+#--GUI(173)===>(Listbox).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox <B1-Leave> {}
+     tk::CancelRepeat
+#--GUI(174)===>(Listbox).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox <B1-Enter> {}
+_tixRecordFlags <1> % 41736 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884637972 ?? 98 20 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox 532 335; 
+	if {[set [tixGetMegaWidget .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox](-state)] eq "disabled"} {
+	    break
+	}
+    ; _tixDeleteFlags;
+#--GUI(175)===>(Listbox).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox <Button-1> {}
+     if {[winfo exists .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox]} {
+	tk::ListboxBeginSelect .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox index @98,20] 1
+    }
+#--GUI(176)===>(Listbox).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox <Button-1> {}
+_tixRecordFlags <1> % 41736 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884637972 ?? 98 20 ?? ?? 0 ?? ?? 0x000111 00000000 4 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox 532 335; 
+	if {[string is true -strict [.rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox cget -takefocus]]} {
+	    focus .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox
+	}
+	tixScrolledListBox:Browse [tixGetMegaWidget .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox]
+    ; _tixDeleteFlags;
+#--GUI(177)===>(Listbox).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox <Button-1> fifo.vg
+callback  Gui_lic_recheck
+_tixRecordFlags <FocusOut> % 41753 ?? ?? ?? NotifyNonlinearVirtual ?? ?? ?? NotifyNormal ?? ?? ?? ?? ?? ?? ?? ?? ?? 0 ?? ?? ?? ?? 10 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file ?? ??; 
+	if {[string equal NotifyNonlinearVirtual NotifyNonlinear] ||
+	    [string equal NotifyNonlinearVirtual NotifyNonlinearVirtual]} {
+ 	    if {[info exists .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file(cancelTab)]} {
+		unset .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file(cancelTab)
+	    } else {
+		if {[set .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file(-state)] ne "disabled"} {
+		    if {[set .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file(-selection)] ne [set .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file(-value)]} {
+			tixComboBox:Invoke .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file
+		    }
+		}
+	    }
+	}
+    ; _tixDeleteFlags;
+#--GUI(178)===>(TixComboBox).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file <FocusOut> {}
+focus .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox
+#--GUI(179)===>(TixScrolledListBox).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist <FocusIn> {}
+_tixRecordFlags <ButtonRelease-1> % 41791 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884637876 ?? 98 20 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox 532 335; 
+	if {[set [tixGetMegaWidget .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox](-state)] eq "disabled"} {
+	    break
+	}
+    ; _tixDeleteFlags;
+#--GUI(180)===>(Listbox).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox <ButtonRelease-1> fifo.vg
+     tk::CancelRepeat
+    .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox activate @98,20
+#--GUI(181)===>(Listbox).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox <ButtonRelease-1> fifo.vg
+_tixRecordFlags <ButtonRelease-1> % 41791 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884637876 ?? 98 20 ?? ?? 0 ?? ?? 0x000111 00000000 5 .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox 532 335; 
+	tixScrolledListBox:Browse [tixGetMegaWidget .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox]
+    ; _tixDeleteFlags;
+#--GUI(182)===>(Listbox).rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist.listbox <ButtonRelease-1> fifo.vg
+tixBalloon_XXButtonUp 532 335 1
+     tk::ButtonEnter .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.ok
+     tk::ButtonLeave .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.ok
+     tk::ButtonEnter .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.ok
+     tk::ButtonDown .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.ok
+#--GUI(183)===>(Button).rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.ok <Button-1> {}
+callback  Gui_lic_recheck
+     tk::ButtonUp .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.ok
+#--GUI(184)===>(Button).rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.ok <ButtonRelease-1> {}
+tixBalloon_XXButtonUp 954 287 1
+tixScrolledWidget:ClientGeomProc .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox {} .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox.listbox
+tixScrolledWidget:ClientGeomProc .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox {} .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox.vsb
+tixScrolledWidget:ClientGeomProc .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox {} .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox.listbox
+tixScrolledWidget:ClientGeomProc .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox {} .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox.vsb
+tixScrolledWidget:ClientGeomProc .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox {} .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox.listbox
+tixScrolledWidget:ClientGeomProc .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox {} .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox.vsb
+tixScrolledWidget:ClientGeomProc .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox {} .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox.hsb
+tixScrolledWidget:ClientGeomProc .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox {} .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox.listbox
+tixScrolledWidget:ClientGeomProc .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox {} .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox.vsb
+tixScrolledWidget:ClientGeomProc .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox {} .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox.hsb
+     tk::ButtonLeave .rdesign.sw.f2.window.bkd0.border.frame.fsbox.bf.ok
+     tk::ButtonEnter .rdesign.bt.quit
+     tk::ButtonLeave .rdesign.bt.quit
+     tk::ButtonEnter .rdesign.bt.quit
+     tk::ButtonLeave .rdesign.bt.quit
+     tk::ButtonEnter .rdesign.bt.ok
+     tk::ButtonLeave .rdesign.bt.ok
+callback  Gui_lic_recheck
+tixBalloon_XXButtonUp 276 82 1
+     tk::ButtonEnter .rdesign.bt.ok
+     tk::ButtonLeave .rdesign.bt.ok
+     tk::ButtonEnter .rdesign.bt.ok
+     tk::ButtonDown .rdesign.bt.ok
+#--GUI(185)===>(Button).rdesign.bt.ok <Button-1> {}
+callback  Gui_lic_recheck
+     tk::ButtonUp .rdesign.bt.ok
+#--GUI(186)===>(Button).rdesign.bt.ok <ButtonRelease-1> {}
+ guiWinConfig .a.pane.f3.command.text.text.promt8 67 22 1 -13 
+ guiWinConfig .b.frame.lab 194 22 1 1 
+ guiWinConfig .b.frame.lab 257 22 1 1 
+tixScrolledWidget:ClientGeomProc .a.pane.f1.middle.revised.fm.tree {} .a.pane.f1.middle.revised.fm.tree.f1
+ guiWinConfig .a.pane.f1.middle.revised.fm.tree.f1 363 228 0 0 
+tixScrolledWidget:ClientGeomProc .a.pane.f1.middle.revised.fm.tree {} .a.pane.f1.middle.revised.fm.tree.hsb
+ guiWinConfig .a.pane.f1.middle.revised.fm.tree.hsb 363 13 0 228 
+ guiWinConfig .a.pane.f1.middle.revised.fm.tree.f1.hlist 361 226 1 1 
+tixScrolledWidget:ClientGeomProc .a.pane.f1.middle.revised.fm.tree {} .a.pane.f1.middle.revised.fm.tree.f1
+ guiWinConfig .a.pane.f1.middle.revised.fm.tree.f1 363 241 0 0 
+ guiWinConfig .a.pane.f1.middle.revised.fm.tree.f1.hlist 361 239 1 1 
+tixScrolledWidget:ClientGeomProc .a.pane.f1.middle.revised.fm.tree {} .a.pane.f1.middle.revised.fm.tree.f1
+ guiWinConfig .a.pane.f1.middle.revised.fm.tree.f1 363 228 0 0 
+tixScrolledWidget:ClientGeomProc .a.pane.f1.middle.revised.fm.tree {} .a.pane.f1.middle.revised.fm.tree.hsb
+ guiWinConfig .a.pane.f1.middle.revised.fm.tree.hsb 363 13 0 228 
+ guiWinConfig .a.pane.f1.middle.revised.fm.tree.f1.hlist 361 226 1 1 
+tixPrimitive:Destructor .rdesign.sw.f2.window.bkd.file.list
+tixPrimitive:Destructor .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dir.shell.slistbox
+tixComboBox:Destructor .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dir
+tixPrimitive:Destructor .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.1.dirlist
+tixPrimitive:Destructor .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file.shell.slistbox
+tixComboBox:Destructor .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.file
+tixPrimitive:Destructor .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane.2.filelist
+tixPrimitive:Destructor .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.pane
+tixPrimitive:Destructor .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.types.shell.slistbox
+tixComboBox:Destructor .rdesign.sw.f2.window.bkd0.border.frame.fsbox.lf.types
+tixPrimitive:Destructor .rdesign.sw.f2.window.bkd0.border.frame.fsbox
+tixPrimitive:Destructor .rdesign.sw.f2.window.bkd0
+tixOptionMenu:Destructor .rdesign.sw.f2.window.bkd1.border.frame.om.fmt.om
+tixBalloon:ClientDestroy .icon.b .rdesign.sw.f2.window.bkd1.border.frame.opt4.uncompress.btn
+tixBalloon:ClientDestroy .icon.b .rdesign.sw.f2.window.bkd1.border.frame.lang_opt.vrlg.opt2.but
+tixPrimitive:Destructor .rdesign.sw.f2.window.bkd1
+tixPrimitive:Destructor .rdesign.sw
+ guiWinConfig .a.pane.f3.command.text.text.promt8 67 22 1 -17 
+ guiWinConfig .a.pane.f3.command.text.text.promt9 67 22 1 5 
+tixBalloon_XXButtonUp 265 65 1
+     tk::MbEnter .v_menu.set
+     tk::MbMotion .v_menu.set up 319 94
+     tk::MbLeave .v_menu.set
+     tk::MbEnter .v_menu.report
+     tk::MbMotion .v_menu.report up 368 115
+     tk::MbLeave .v_menu.report
+         if { [ .icon.rulechk cget -state ] == "normal" } {
+            .icon.rulechk configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.rulechk
+ .icon.rulechk configure -relief flat 
+     tk::ButtonLeave .icon.rulechk
+_tixRecordFlags <B1-Leave> % 47621 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyGrab ?? ?? 256 -884632903 ?? 133 42 ?? ?? 0 ?? ?? 0x000111 00000000 8 .a.pane.f1.middle.revised.fm.tree.f1.hlist 763 234; 
+	set tkPriv(x) 133
+	set tkPriv(y) 42
+	set tkPriv(X) 763
+	set tkPriv(Y) 234
+ 	tixHList:B1-Leave .a.pane.f1.middle.revised.fm.tree.f1.hlist
+    ; _tixDeleteFlags;
+#--GUI(187)===>(TixHList).a.pane.f1.middle.revised.fm.tree.f1.hlist <B1-Leave> {}
+_tixRecordFlags <B1-Enter> % 47621 ?? ?? ?? NotifyAncestor 1 ?? ?? NotifyUngrab ?? ?? 256 -884632881 ?? 133 42 ?? ?? 0 ?? ?? 0x000111 00000000 7 .a.pane.f1.middle.revised.fm.tree.f1.hlist 763 234; 
+	tixHList:B1-Enter .a.pane.f1.middle.revised.fm.tree.f1.hlist 133 42
+    ; _tixDeleteFlags;
+#--GUI(188)===>(TixHList).a.pane.f1.middle.revised.fm.tree.f1.hlist <B1-Enter> {}
+_tixRecordFlags <ButtonPress-1> % 47621 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884632881 ?? 133 42 ?? ?? 0 ?? ?? 0x000111 00000000 4 .a.pane.f1.middle.revised.fm.tree.f1.hlist 763 234; 
+	tixHList:Button-1 .a.pane.f1.middle.revised.fm.tree.f1.hlist 133 42 ""
+    ; _tixDeleteFlags;
+#--GUI(189)===>(TixHList).a.pane.f1.middle.revised.fm.tree.f1.hlist <Button-1> {}
+callback  Gui_lic_recheck
+_tixRecordFlags <ButtonRelease-1> % 47700 ?? 1 ?? ?? ?? ?? ?? ?? ?? ?? 256 -884632831 ?? 133 42 ?? ?? 0 ?? ?? 0x000111 00000000 5 .a.pane.f1.middle.revised.fm.tree.f1.hlist 763 234; 
+	tixHList:ButtonRelease-1 .a.pane.f1.middle.revised.fm.tree.f1.hlist 133 42
+    ; _tixDeleteFlags;
+#--GUI(190)===>(TixHList).a.pane.f1.middle.revised.fm.tree.f1.hlist <ButtonRelease-1> {{fifomemory(fifo_DW_ram_r_w_s_lat_32_16_0) memory(fifo_DW_ram_r_w_s_lat_32_16_0)}}
+tixBalloon_XXButtonUp 763 234 1
+_tixRecordFlags <Button-3> % 47702 ?? 3 ?? ?? ?? ?? ?? ?? ?? ?? 0 -884629685 ?? 133 42 ?? ?? 0 ?? ?? 0x000111 00000000 4 .a.pane.f1.middle.revised.fm.tree.f1.hlist 763 234; 
+    #hlistSelection .a.pane.f1.middle.revised.fm.tree.f1.hlist 42 1 1
+    pop_mod_com_menu .a.pane.f1.middle.revised.fm.tree.f1.hlist 763 234
+  ; _tixDeleteFlags;
+#--GUI(191)===>(TixHList).a.pane.f1.middle.revised.fm.tree.f1.hlist <Button-3> {}
+callback  Gui_lic_recheck
+     set tk::Priv(window) .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu
+    if {[.a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu cget -type] eq "tearoff"} {
+	if {"NotifyUngrab" ne "NotifyUngrab"} {
+	    if {[tk windowingsystem] eq "x11"} {
+		tk_menuSetFocus .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu
+	    }
+	}
+    }
+    tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 0 0 1024
+    tk::MenuInvoke .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 1
+#--GUI(192)===>(Menu).a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu <ButtonRelease> (menu-button)
+tixBalloon_XXButtonUp 763 234 3
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 1 0 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 6 0 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 13 2 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 20 5 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 36 8 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 42 9 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 44 9 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 45 10 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 46 10 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 47 11 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 48 12 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 49 13 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 50 14 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 50 15 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 53 17 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 53 19 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 54 21 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 55 23 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 56 26 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 56 28 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 56 30 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 56 32 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 56 32 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 57 33 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 55 33 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 52 33 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 50 33 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 49 33 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 48 33 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 49 34 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 53 35 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 56 37 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 61 40 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 68 44 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 76 49 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 82 55 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 87 62 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 90 68 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 93 73 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 93 77 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 94 82 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 94 84 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 94 85 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 94 86 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 94 87 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 94 85 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 94 76 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 94 65 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 94 57 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 94 49 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 94 45 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 95 43 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 96 43 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 96 42 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 96 42 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 97 40 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 98 39 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 100 38 0
+     tk::MenuButtonDown .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu
+#--GUI(193)===>(Menu).a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu <Button> {(sub-menu) "Add Black Box" (.a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic)}
+callback  Gui_lic_recheck
+    tk::MenuInvoke .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 1
+#--GUI(194)===>(Menu).a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu <ButtonRelease> {(sub-menu) "Add Black Box" (.a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic)}
+tixBalloon_XXButtonUp 863 272 1
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 103 38 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 111 38 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 123 38 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 142 38 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 159 38 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 180 37 0
+     tk::MenuLeave .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 960 271 0
+     set tk::Priv(window) .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic
+    if {[.a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic cget -type] eq "tearoff"} {
+	if {"NotifyNormal" ne "NotifyUngrab"} {
+	    if {[tk windowingsystem] eq "x11"} {
+		tk_menuSetFocus .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic
+	    }
+	}
+    }
+    tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 16 10 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 16 10 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 27 9 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 37 9 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 44 9 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 49 9 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 52 9 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 54 9 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 55 9 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 55 9 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 55 10 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 55 10 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 56 11 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 56 12 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 56 13 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 56 13 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 57 14 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 57 15 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 57 15 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 58 17 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 58 17 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 58 19 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 58 20 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 58 22 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 58 26 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 58 29 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 58 33 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 58 35 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 58 37 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 58 38 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 58 36 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 60 30 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 71 19 0
+     tk::MenuLeave .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu.aic 1032 269 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 269 35 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 292 25 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 315 19 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 332 19 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 347 19 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 357 20 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 361 22 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 364 25 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 367 28 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 368 29 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 369 29 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 369 30 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 369 30 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 369 31 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 369 31 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 369 32 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 368 33 0
+     tk::MenuMotion .a.pane.f1.middle.revised.fm.tree.f1.hlist.general.menu 368 34 0
